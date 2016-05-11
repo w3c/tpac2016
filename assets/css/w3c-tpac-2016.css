@@ -1,0 +1,277 @@
+@font-face {
+  font-family: 'Proxima Nova Alt Condensed';
+  src: url('../fonts/ProximaNovaACond-Regular.otf');
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: Open Sans, sans-serif;
+    font-family: "Proxima Nova Alt Condensed";
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    height: 1800px;
+}
+
+h1 {
+    color: #374052;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8em;
+    line-height: 1.8em;
+    text-align: left;
+    font-family: "Proxima Nova Alt Condensed";
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #515559;
+    color: #374052;
+    color: white;
+    font-weight: 600;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    font-family: "Proxima Nova Alt Condensed";
+    margin-top: 0px;
+    opacity: 0.7;
+    text-align: left;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-color: #C2001D;
+    background-image: url('../img/web_banner_mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border-bottom: 2px solid #BD9322;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.navbar .container {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar button.side-nav-btn {
+    height: 40px;
+    width: 40px;
+    background: none;
+    border: 0px;
+    box-shadow: none;
+    background-image: url('../img/menu-icon-white.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  auto 18px;
+    margin-right: 10px;
+}
+
+.navbar a.register-btn {
+    padding: 10px 20px 7px 20px;
+    font-size: 0.8em;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    background-color: #034686;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+header .hero {
+    height: 320px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .hero .logo {
+    margin-top: 20px;
+    height: 220px;
+}
+
+.event-info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.register {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #034686;
+}
+
+.register .container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.register .container .event-date {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.register .event-date {
+    width: 100%;
+}
+
+.register .event-date p {
+    color: #515559;
+    color: #034686;
+    color: white;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.8em;
+    font-family: "Proxima Nova Alt Condensed";
+    letter-spacing: 0.02em;
+}
+
+.register .event-description {
+    text-align: left;
+    font-size:1.2em;
+    color: white;
+    opacity: 0.7;
+    line-height: 1.5em;
+
+}
+
+.register .call-to-action {
+    margin-top: 50px;
+
+}
+
+.register .register-btn {
+    padding: 25px 60px 20px 60px;
+    background-color: #0F3C6E;
+    font-size: 1em;
+    border: 0px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.register .registration-deadline {
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    opacity: 0.7;
+    line-height: 1.5em;
+}
+
+.event-location {
+    width: 100%;
+    background-image: url('../img/lisbon.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.event-location h1 {
+    text-align: center;
+}
+
+
+.event-location img {
+    margin-top: 50px;
+}
+
+.event-location p {
+    text-align: left;
+    font-size:1.2em;
+    color: white;
+    opacity: 1;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.event-location p.call-to-action {
+    text-align: left;
+    font-size:1em;
+    color: white;
+    opacity: 1;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.open-map-btn {
+    padding: 25px 60px 20px 60px;
+    background-color: #0F3C6E;
+    font-size: 1em;
+    border: 0px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1100px;
+        margin: auto;
+    }
+    .event-info {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+
+    }
+    .register {
+        width: 50%;
+    }
+    .event-location {
+        width: 50%;
+    }
+    .register .event-description {
+        max-width: 90%;
+
+    }
+
+}
