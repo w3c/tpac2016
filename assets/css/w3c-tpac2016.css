@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'Proxima Nova Alt Condensed';
+  src: url('../fonts/ProximaNovaACond-Regular.otf');
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: Open Sans, sans-serif;
+    font-family: "Proxima Nova Alt Condensed";
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    color: #374052;
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    text-align: left;
+    font-family: Inconsolata, "Proxima Nova Alt Condensed";
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgba(0,0,0,0.7);
+    font-weight: 600;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    font-family: Inconsolata, "Proxima Nova Alt Condensed";
+    opacity: 1;
+    text-align: left;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    line-height: 1.5em;
+    font-size: 1em;
+    color: rgba(0,0,0,0.5);
+    margin: 0px;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    height: 60px;
+}
+
+#hero {
+    width: 100%;
+    background-color: #C82A41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero img {
+    width: 100%;
+}
+
+.cards-container {
+
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 10px 50px 10px;
+}
+
+.illustration-card {
+    background-color: #33333d;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.illustration-card img {
+    width: 100%;
+}
+
+#register-card {
+    background-color: #034686;
+}
+
+#register-card h2 {
+    color: white;
+}
+
+#register-card p {
+    color: rgba(255,255,255,0.7);
+}
+
+.card p.call-to-action {
+    margin-top: 50px;
+
+}
+
+#register-card p.call-to-action .register-btn {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 700;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+}
+
+
+#location-card {
+    background-color: #34A7CA;
+}
+
+#location-card h2 {
+    color: white;
+}
+
+#location-card p {
+    color: rgba(255,255,255,0.7);
+}
+
+#location-card .more-info-location-btn {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 700;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+}
+
+#agenda {
+    background-color:  #ECEFF1;
+    color: #ECEFF1;
+}
+
+#agenda .agenda-btn {
+    color: rgba(0,0,0,0.7);
+    font-size: 0.8em;
+    font-weight: 700;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+}
+
+#policy {
+    background-color: #F8FAFA;
+}
+
+@media (min-width: 480px) {
+    #hero img {
+        max-width: 480px;
+    }
+    .cards-container {
+        margin-top: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .card {
+        width: 50%;
+        height: 500px;
+        padding: 50px 50px 50px 50px;
+    }
+    .illustration-card {
+        padding: 0px;
+    }
+    .illustration-card img {
+        margin-top: -50px;
+    }
+}

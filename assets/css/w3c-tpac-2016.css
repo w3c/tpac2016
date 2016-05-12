@@ -252,6 +252,25 @@ header .hero .logo {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
+
+.calendar h1 {
+    color: #0A3154;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.calendar h2 {
+    color: #034686;
+}
+
+.calendar ul {
+    padding-left: 0px;
+}
+
+.calendar ul li {
+    list-style-type: none;
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 1100px;
