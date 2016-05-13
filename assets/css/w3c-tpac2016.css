@@ -15,9 +15,10 @@ html, body {
 
 h1 {
     color: #374052;
-    font-weight: 100;
-    font-size: 1.5em;
+    font-weight: 600;
+    font-size: 1.4em;
     line-height: 1.8em;
+    letter-spacing: 0.1em;
     text-align: left;
     font-family: Inconsolata, "Proxima Nova Alt Condensed";
     margin-top: 0px;
@@ -31,6 +32,7 @@ h2 {
     font-size: 1.4em;
     line-height: 1.5em;
     letter-spacing: 0.1em;
+    margin-top: 0px;
     font-family: Inconsolata, "Proxima Nova Alt Condensed";
     opacity: 1;
     text-align: left;
@@ -41,7 +43,7 @@ h2 {
 p {
     font-family: Roboto, sans-serif;
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: 0.9em;
     color: rgba(0,0,0,0.5);
     margin: 0px;
 }
@@ -159,9 +161,41 @@ header {
 }
 
 #policy {
-    background-color: #F8FAFA;
+    background-color: #0A3154;
 }
 
+#policy .agenda-btn {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 700;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+}
+
+#policy h2 {
+    color: white;
+}
+
+#policy p {
+    color: rgba(255,255,255,0.7);
+}
+
+#sponsors {
+    padding-bottom: 50px;
+}
+
+#sponsors h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+#sponsors p {
+    text-align: center;
+
+}
 @media (min-width: 480px) {
     #hero img {
         max-width: 480px;
@@ -175,7 +209,7 @@ header {
     }
     .card {
         width: 50%;
-        height: 500px;
+        height: 450px;
         padding: 50px 50px 50px 50px;
     }
     .illustration-card {
