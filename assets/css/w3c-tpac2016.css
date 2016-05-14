@@ -119,6 +119,24 @@ header .register-btn {
         color: white;
 }
 
+.news-box .news-box-content p.call-to-action {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.news-box .news-box-content p.call-to-action a {
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 25px 10px 25px;
+    border: 1px solid white;
+    border-radius: 2px;
+    color:  #448AFF;
+    background-color: white;
+
+}
+
 #hero {
     width: 100%;
     background-color: #C82A41;
