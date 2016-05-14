@@ -8,29 +8,96 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="#C82A41">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,100,300,700,900' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/css/w3c-tpac2016.css">
         <link rel="manifest" href="manifest.json">
     </head>
     <body>
         <div class="app-container">
+
             <header>
+                <button class="side-nav-btn" type="button" name="side-nav-button"><span class="sr-only">open menu</span><img src="assets/img/menu-icon-white.svg" height="18" alt=""></button>
+                <a class="register-btn" href="#">register</a>
             </header>
+
             <main>
+
+                <section id="news-box" class="news-box">
+                    <div class="news-box-controls">
+                        <button id="news-box-close-btn" type="button" name="close"><img src="assets/img/close-btn-white.svg" height="10" alt=""></button>
+                    </div>
+                    <div class="news-box-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </section>
+
                 <section id="hero">
                     <img src="assets/img/logo_banner_tpac.png" alt="">
                 </section>
+
                 <section class="cards-container">
                     <div id="register-card" class="card">
-                        <h2> SEPTEMBER 19-23,2016 </h2>
-                        <p>
-                            The Combined Technical Plenary / Advisory Committee Meetings Week brings together W3C Technical Groups, the Advisory Board, the TAG and the Advisory Committee for an exciting week of coordinated work.
-                        </p>
-                        <p class="call-to-action">
-                            <a class="register-btn" href="#">learn more about registration and fees</a>
-                        </p>
+                        <div class="card-icon">
+                            <img src="assets/img/calendar-icon.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h2> September 19-23, 2016 </h2>
+                            <p>
+                                The Combined Technical Plenary / Advisory Committee Meetings Week brings together W3C Technical Groups, the Advisory Board, the TAG and the Advisory Committee for an exciting week of coordinated work.
+                            </p>
+                            <p class="call-to-action">
+                                <a class="btn" href="#">register now</a>
+                            </p>
+                            <p class="call-to-action">
+                                <a class="link" href="#">See more informations about registration and fees.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="location-card" class="card">
+                        <div class="card-icon">
+                            <img src="assets/img/location-icon.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h2> Centro de Congressos de Lisboa </h2>
+                            <p>
+                                Praça Indústrias
+                                <br>
+                                1300-307 Lisboa, Portugal
+                                <br>
+                                Tel: +(351) 213601400
+                                <br>
+                                <br>
+                                The conference center is located near the Tagus river and the historic buildings of the Belém quarter.
+                            </p>
+                            <p class="call-to-action">
+                                <a class="btn" href="#">open map</a>
+                            </p>
+                            <p class="call-to-action">
+                                <a class="link" href="#">Learn more about accomodations and transportation.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="register-card" class="card">
+                        <div class="card-icon">
+                            <img src="assets/img/calendar-icon.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h2> September 19-23, 2016 </h2>
+                            <p>
+                                The Combined Technical Plenary / Advisory Committee Meetings Week brings together W3C Technical Groups, the Advisory Board, the TAG and the Advisory Committee for an exciting week of coordinated work.
+                            </p>
+                            <p class="call-to-action">
+                                <a class="btn" href="#">register now</a>
+                            </p>
+                            <p class="call-to-action">
+                                <a class="link" href="#">See more informations about registration and fees.</a>
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="card illustration-card">
+                    <!--<div class="card illustration-card">
                         <img src="assets/img/illustration-1.png" alt="">
                     </div>
 
@@ -82,11 +149,16 @@
                         <p>
                             Learn more about the TPAC 2016 sponsorship program to get great benefits from our sponsorship packages
                         </p>
+                        <p class="call-to-action">
+                            <a href="#">Explore sponsorship offers</a>
+                        </p>
                     </div>
-
+                </section>
+                <section class="cards-container">-->
                 </section>
             </main>
 
         </div>
+        <script type="text/javascript" src="assets/js/app.js"></script>
     </body>
 </html>

@@ -8,9 +8,12 @@ html, body {
     padding: 0px;
     outline: 0px;
     font-family: Open Sans, sans-serif;
-    font-family: "Proxima Nova Alt Condensed";
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
+}
+
+body {
+    padding-top: 60px;
 }
 
 h1 {
@@ -27,17 +30,6 @@ h1 {
 }
 
 h2 {
-    color: rgba(0,0,0,0.7);
-    font-weight: 600;
-    font-size: 1.4em;
-    line-height: 1.5em;
-    letter-spacing: 0.1em;
-    margin-top: 0px;
-    font-family: Inconsolata, "Proxima Nova Alt Condensed";
-    opacity: 1;
-    text-align: left;
-    text-transform: uppercase;
-    vertical-align: middle;
 }
 
 p {
@@ -53,8 +45,78 @@ p {
     margin: auto;
 }
 
+.sr-only {
+    display: none;
+}
+
 header {
+    width: 100%;
     height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #C82A41;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+header .side-nav-btn {
+    padding-top: 3px;
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+    display: flex;
+}
+
+header .register-btn {
+    padding: 8px 25px 7px 25px;
+    background-color:#0A3154;
+    border-radius: 2px;
+    font-size: 0.7em;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.news-box {
+        width: 100%;
+        background-color: #448AFF;
+        padding: 15px 15px 30px 15px;
+        box-sizing: border-box;
+}
+
+.news-box .news-box-controls {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.news-box .news-box-controls button {
+        background-color: transparent;
+        border: 0px;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        padding-right: 0px;
+        cursor: pointer;
+}
+
+.news-box .news-box-content {
+        margin-top: 5px;
+}
+
+.news-box .news-box-content p {
+        color: white;
 }
 
 #hero {
@@ -75,11 +137,67 @@ header {
 
 .card {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: flex-start;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px 10px 50px 10px;
+    padding: 30px 0px 30px 0px;
+}
+
+.card .card-icon {
+    display: flex;
+    flex-flow: column;
+    padding: 0px 15px 0px 15px;
+}
+
+.card .card-icon > img {
+    width: 50px;
+    height: auto;
+}
+
+.card .card-content {
+    padding: 0px 15px 0px 0px;
+}
+
+.card .card-content h2 {
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: Open Sans;
+    color: rgba(0,0,0,0.7);
+    --text-transform: uppercase;
+    margin-top: 0px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card .card-content p {
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: Open Sans;
+    color: rgba(0,0,0,0.5);
+    margin-top: 0px;
+}
+
+.card p.call-to-action {
+    margin-top: 30px;
+}
+
+.card p.call-to-action a.btn {
+    font-size: 0.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #0A3154;
+    border-radius: 2px;
+    color: white;
+    background-color: #0A3154;
+}
+
+.card p.call-to-action a.link {
+    color: rgba(0,0,0,0.7);
 }
 
 .illustration-card {
@@ -93,25 +211,12 @@ header {
 }
 
 #register-card {
-    background-color: #034686;
-}
-
-#register-card h2 {
-    color: white;
-}
-
-#register-card p {
-    color: rgba(255,255,255,0.7);
-}
-
-.card p.call-to-action {
-    margin-top: 50px;
-
+    background-color: #F6F8FA;
 }
 
 #register-card p.call-to-action .register-btn {
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 700;
     border-radius: 3px;
     text-decoration: none;
@@ -121,21 +226,10 @@ header {
 }
 
 
-#location-card {
-    background-color: #34A7CA;
-}
-
-#location-card h2 {
-    color: white;
-}
-
-#location-card p {
-    color: rgba(255,255,255,0.7);
-}
 
 #location-card .more-info-location-btn {
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 700;
     border-radius: 3px;
     text-decoration: none;
@@ -151,7 +245,7 @@ header {
 
 #agenda .agenda-btn {
     color: rgba(0,0,0,0.7);
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 700;
     border-radius: 3px;
     text-decoration: none;
@@ -166,7 +260,7 @@ header {
 
 #policy .agenda-btn {
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 700;
     border-radius: 3px;
     text-decoration: none;
@@ -194,7 +288,21 @@ header {
 }
 #sponsors p {
     text-align: center;
+}
 
+#sponsors .call-to-action {
+    margin-top: 40px;
+}
+
+#sponsors .call-to-action a {
+    background-color: #C82A41;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px 20px 25px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 0.8em;
 }
 @media (min-width: 480px) {
     #hero img {
