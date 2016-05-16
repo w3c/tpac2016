@@ -257,7 +257,7 @@ header .register-btn {
 }
 
 #agenda-card {
-    background-color:  #34A7CA;
+    background-color:  #034686;
     color: white;
 }
 
@@ -272,7 +272,7 @@ header .register-btn {
 #agenda-card p.call-to-action a {
     background-color: white;
     border: 1px solid white;
-    color: #34A7CA;
+    color: #034686;
 }
 
 #agenda .agenda-btn {
