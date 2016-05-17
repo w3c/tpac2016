@@ -243,7 +243,9 @@ header .register-btn {
     text-decoration: underline;
 }
 
-
+#location-card {
+    background-color: #ECEFF1;
+}
 
 #location-card .more-info-location-btn {
     color: white;
@@ -273,6 +275,23 @@ header .register-btn {
     background-color: white;
     border: 1px solid white;
     color: #034686;
+}
+
+#twitter-card {
+    background-color: #ECEFF1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#twitter-card h2 {
+    color: #448AFF;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+
+#policy-card {
+    background-color: #F8FAFA;
 }
 
 #agenda .agenda-btn {
