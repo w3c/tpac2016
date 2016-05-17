@@ -52,7 +52,7 @@ p {
 }
 
 .app-container {
-    max-width: 1200px;
+    --max-width: 1200px;
     margin: auto;
 }
 
@@ -305,6 +305,20 @@ header .register-btn {
     background-color: #F8FAFA;
 }
 
+#useful-info-card {
+    background-color:  #034686;
+    color: white;
+}
+
+#useful-info-card h2 {
+    color: white;
+}
+
+#useful-info-card p {
+    margin-top: 10px;
+    color: white;
+}
+
 #agenda .agenda-btn {
     color: rgba(0,0,0,0.7);
     font-size: 0.9em;
@@ -372,12 +386,19 @@ footer {
     height: 150px;
     border-top: 1px solid rgba(0,0,0,0.1);
 }
-@media (min-width: 480px) {
+@media (min-width: 780px) {
+    html, body {
+        font-size: 20px;
+    }
     #hero img {
-        max-width: 480px;
+        max-height: 300px;
+        width: auto;
+    }
+    .news-box-content {
+        max-width: 800px;
+        margin: auto;
     }
     .cards-container {
-        margin-top: 50px;
         display: flex;
         flex-flow: row wrap;
         align-items: center;
