@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Proxima Nova Alt Condensed';
-  src: url('../fonts/ProximaNovaACond-Regular.otf');
+  font-family: 'LeagueGothicRegular';
+  src: url('../fonts/League_Gothic-webfont.woff');
 }
 
 html, body {
@@ -405,17 +405,19 @@ footer {
         flex-flow: column;
     }
     #hero h1 {
-        font-size: 1.5em;
+        font-size: 3.5em;
+        letter-spacing: 0.03em;
         color: white;
-        font-weight: 600;
-        letter-spacing: normal;
+        font-family: 'LeagueGothicRegular';
     }
 
     #hero h2 {
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: white;
         font-weight: 400;
         letter-spacing: normal;
+        font-family: Open Sans;
+        margin-top: 0px;
     }
 
     #hero img {
