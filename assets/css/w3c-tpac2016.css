@@ -156,6 +156,9 @@ header .register-btn {
     justify-content: center;
 }
 
+#hero .title {
+    display: none;
+}
 #hero img {
     width: 100%;
 }
@@ -390,6 +393,31 @@ footer {
     html, body {
         font-size: 20px;
     }
+
+    #hero {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    #hero .title {
+        display: flex;
+        flex-flow: column;
+    }
+    #hero h1 {
+        font-size: 1.5em;
+        color: white;
+        font-weight: 600;
+        letter-spacing: normal;
+    }
+
+    #hero h2 {
+        font-size: 1.3em;
+        color: white;
+        font-weight: 400;
+        letter-spacing: normal;
+    }
+
     #hero img {
         max-height: 300px;
         width: auto;
