@@ -1,7 +1,7 @@
 {
     "name": "TPAC 2016",
     "lang": "en",
-    "start_url": "./",
+    "start_url": "./schedule",
     "icons": [
         {"src": "assets/img/app-icon.png",
          "sizes": "any",
