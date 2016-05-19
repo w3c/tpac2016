@@ -26,18 +26,20 @@
             </section>
             <section class="schedule">
                 <nav>
-                    <button class="active" type="button" name="button">Monday</button>
-                    <button type="button" name="button">Tuesday</button>
-                    <button type="button" name="button">Wednesday</button>
-                    <button type="button" name="button">Thursday</button>
-                    <button type="button" name="button">Friday</button>
-                    <button type="button" name="button">My schedule</button>
+                    <button class="schedule-navigation-btn active" type="button" name="button">Monday</button>
+                    <button class="schedule-navigation-btn" type="button" name="button">Tuesday</button>
+                    <button class="schedule-navigation-btn" type="button" name="button">Wednesday</button>
+                    <button class="schedule-navigation-btn" type="button" name="button">Thursday</button>
+                    <button class="schedule-navigation-btn" type="button" name="button">Friday</button>
+                    <button class="schedule-navigation-btn" type="button" name="button">My schedule</button>
                 </nav>
-                <ul class="agenda">
+                <ul id="monday-schedule" class="agenda">
                     <li class="agenda-item">
                         <div class="item-time">
                             <p>
-                                8:00am
+                                8:00am /
+                                <br>
+                                8:30am
                             </p>
                         </div>
                         <div class="item-name">
@@ -45,16 +47,15 @@
                                 Registrations
                             </p>
                         </div>
-                        <div class="item-location">
-                            <p>
-                                Room XX
-                            </p>
-                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
                     </li>
                     <li class="agenda-item">
                         <div class="item-time">
                             <p>
-                                8:30am
+                                8:30am /
+                                12:00pm
                             </p>
                         </div>
                         <div class="item-name">
@@ -62,11 +63,9 @@
                                 Group Meetings
                             </p>
                         </div>
-                        <div class="item-location">
-                            <p>
-                                Room XX
-                            </p>
-                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
                     </li>
                     <li class="agenda-item">
                         <div class="item-time">
@@ -79,11 +78,9 @@
                                 Lunch
                             </p>
                         </div>
-                        <div class="item-location">
-                            <p>
-                                Room XX
-                            </p>
-                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
                     </li>
                     <li class="agenda-item">
                         <div class="item-time">
@@ -93,17 +90,208 @@
                         </div>
                         <div class="item-name">
                             <p>
-                                Group Meetings / Ad-hoc Meetings
+                                · Group Meetings
+                                <br>
+                                · Ad-hoc Meetings
                             </p>
                         </div>
-                        <div class="item-location">
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
                             <p>
-                                Room XX
+                                6:30pm
                             </p>
                         </div>
+                        <div class="item-name">
+                            <p>
+                                Developer Meetup
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
                     </li>
                 </ul>
+
+                <ul id="tuesday-schedule" class="agenda">
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                7:30am
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                Chairs Breakfast with Jeff Jaffe
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                8:00am
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                Registrations
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                8:30am
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                Group Meetings
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                12:00pm
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                Lunch
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                3:00pm
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                · Group Meetings <br> · Ad-hoc meetings <br> · AC Meeting
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                7:00pm
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                AC Dinner
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                </ul>
+
+                <ul id="wednesday-schedule" class="agenda">
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                8:00am
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                Registrations
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                8:30am
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                · Technical Plenary Day
+                                <br>
+                                · Breakout sessions
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                12:00pm
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                Lunch
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                2:00pm
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                · Technical Plenary Day
+                                <br>
+                                · Breakout sessions
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="agenda-item">
+                        <div class="item-time">
+                            <p>
+                                6:30pm
+                            </p>
+                        </div>
+                        <div class="item-name">
+                            <p>
+                                TP Reception
+                            </p>
+                        </div>
+                        <button class="item-dropdown">
+                            <img src="assets/img/dropdown-arrow.svg" alt="">
+                        </button>
+                    </li>
+                </ul>
+
             </section>
         </main>
+        <script type="text/javascript" src="assets/js/schedule.js"></script>
     </body>
 </html>
