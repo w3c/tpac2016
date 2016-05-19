@@ -70,6 +70,11 @@ body {
     width: 30%;
 }
 
+.schedule ul li .item-time .end-time {
+    color: rgba(38, 38, 38, 0.4);
+    font-size: 0.8em;
+}
+
 .schedule ul li .item-name {
     width: 50%;
 }
