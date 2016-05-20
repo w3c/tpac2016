@@ -60,11 +60,16 @@
 .schedule ul li {
     list-style-type: none;
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     align-items: center;
     font-size: 1em;
     padding: 0px;
     border-bottom: 1px solid rgba(38, 38, 38, 0.1);
+    transition: 0.4s;
+}
+
+.schedule ul li.expand {
+    background-color: #F5F7FC;
 }
 
 .schedule ul li p {
@@ -106,6 +111,18 @@
 
 .schedule ul li.expand button.item-dropdown img {
     transform: rotate(180deg);
+}
+
+.schedule ul li .item-details {
+    width: 100%;
+    height: 300px;
+    display: none;
+}
+
+.schedule ul li.expand .item-details {
+    display: block;
+    width: 100%;
+    height: 200px;
 }
 
 .agenda {
