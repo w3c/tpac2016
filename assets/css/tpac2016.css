@@ -20,6 +20,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding-left: 20px;
+    z-index: 0;
 }
 
 header .side-nav-btn {
@@ -30,6 +31,15 @@ header .side-nav-btn {
     display: flex;
 }
 
+header .page-title {
+    padding-left: 20px;
+}
+
+header .page-title h1 {
+    color: white;
+    font-size: 1.2em;
+}
+
 h1 {
     font-size: 1.8em;
     font-weight: 400;
@@ -37,6 +47,58 @@ h1 {
 
 p {
     line-height: 1.4em;
+}
+
+#side-nav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    display: none;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#side-nav.active {
+    display: flex;
+}
+
+#side-nav-overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    display: none;
+    background-color: rgba(38, 38, 38, 0.7);
+
+}
+
+#side-nav-overlay.active {
+    display: block;
+}
+
+#side-nav-content {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    background-color: white;
+    transition:0.4s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#side-nav-content.active {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    left: 0px;
+    z-index: 100;
 }
 
 .container {
