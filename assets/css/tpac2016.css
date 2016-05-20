@@ -84,21 +84,18 @@ p {
 
 #side-nav-content {
     height: 100%;
-    width: 60%;
+    width: 70%;
     position: fixed;
     top: 0px;
-    left: -100%;
+    right: 100%;
+    z-index: 100;
     background-color: white;
-    transition:0.4s;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition:0.3s;
 }
 
 #side-nav-content.active {
-    height: 100%;
-    width: 70%;
-    position: fixed;
-    left: 0px;
-    z-index: 100;
+
+    transform: translateX(100%);
 }
 
 .container {

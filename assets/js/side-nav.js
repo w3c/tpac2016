@@ -11,8 +11,8 @@
     });
 
     sideNavOverlay.addEventListener('click', function() {
-        sideNavOverlay.className = sideNavOverlay.className.replace('active', '');
-        sideNavContent.className = sideNavContent.className.replace('active', '');
+        sideNavOverlay.className = sideNavOverlay.className.replace('active', 'hidden');
+        sideNavContent.className = sideNavContent.className.replace('active', 'hidden');
     });
 
     sideNavContent.addEventListener('click', function() {
