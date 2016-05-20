@@ -87,15 +87,15 @@ p {
     width: 70%;
     position: fixed;
     top: 0px;
-    right: 100%;
+    right: 120%;
     z-index: 100;
     background-color: white;
-    transition:0.3s;
+    transition:0.4s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #side-nav-content.active {
-
-    transform: translateX(100%);
+    transform: translateX(120%);
 }
 
 .container {
