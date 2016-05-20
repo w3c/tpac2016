@@ -95,7 +95,7 @@ p {
 }
 
 #side-nav-content.active {
-    transform: translateX(120%);
+    transform: translateX(125%);
 }
 
 .container {

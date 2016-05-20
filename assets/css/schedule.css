@@ -16,14 +16,21 @@
     width: 100%;
     height: 60px;
     background-color: #EFF1F6;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
     overflow: scroll;
 }
 
-.schedule nav button {
+.schedule nav .container {
+    width: 160%;
+    height: 60px;
     padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.schedule nav button {
     margin: 0px;
     background-color: transparent;
     border: 0px;
