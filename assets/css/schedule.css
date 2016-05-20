@@ -101,6 +101,11 @@
 .schedule ul li button.item-dropdown img {
     width: 20px;
     height: 20px;
+    transition: 0.4s;
+}
+
+.schedule ul li.expand button.item-dropdown img {
+    transform: rotate(180deg);
 }
 
 .agenda {
