@@ -26,6 +26,8 @@
     width: 160%;
     height: 60px;
     padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -115,14 +117,13 @@
 
 .schedule ul li .item-details {
     width: 100%;
-    height: 300px;
+    height: 200px;
     display: none;
 }
 
 .schedule ul li.expand .item-details {
     display: block;
     width: 100%;
-    height: 200px;
 }
 
 .agenda {
