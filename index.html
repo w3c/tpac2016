@@ -4,21 +4,57 @@
         <title>TPAC 2016: W3C Combined Technical Plenary / Advisory Committee Meeting</title>
         <meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#C82A41">
-        <meta name="apple-mobile-web-app-status-bar-style" content="#C82A41">
+        <meta name="theme-color" content="#EFF1F6">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#EFF1F6">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,100,300,700,900' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="assets/css/w3c-tpac2016.css">
+        <link rel="stylesheet" href="assets/css/tpac2016.css">
+        <link rel="stylesheet" href="assets/css/index.css">
         <link rel="manifest" href="manifest.json">
     </head>
     <body>
-        <div class="app-container">
+        <div class="side-nav">
+            <div id="side-nav-content">
+                <div class="side-nav-header">
 
+                </div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="schedule">Schedule</a></li>
+                </ul>
+            </div>
+            <div id="side-nav-overlay">
+        </div>
+
+        </div>
             <header>
-                <button class="side-nav-btn" type="button" name="side-nav-button"><span class="sr-only">open menu</span><img src="assets/img/menu-icon-white.svg" height="18" alt=""></button>
-                <a class="register-btn" href="https://www.w3.org/2002/09/wbs/35125/TPAC2016/">register</a>
+                <button id="side-nav-btn" class="side-nav-btn" type="button" name="side-nav-button"><span class="sr-only">open menu</span><img src="assets/img/menu-icon-dark.svg" height="18" alt=""></button>
+                <div class="page-title">
+
+                </div>
             </header>
 
             <main>
+                <section  class="hero">
+                    <div class="container">
+                    <h1>
+                        /2016 <br> LISBON</h1>
+
+                    </div>
+                </section>
+                <section class="details">
+                    <div class="container">
+                        <h2>W3C Technical Plenary / Advisory Committee Meetings Week</h2>
+                        <p>
+                            The Combined Technical Plenary / Advisory Committee Meetings Week brings together W3C Technical Groups, the Advisory Board, the TAG and the Advisory Committee for an exciting week of coordinated work.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </section>
+
+            </main>
+        <!--    <main>
                 <section id="news-box" class="news-box">
                     <div class="news-box-controls">
                         <button id="news-box-close-btn" type="button" name="close"><img src="assets/img/close-btn-white.svg" height="10" alt=""></button>
@@ -145,12 +181,12 @@
                         </div>
                     </div>
                 </section>
-            </main>
+            </main>-->
 
             <footer>
 
             </footer>
-        </div>
-        <script type="text/javascript" src="assets/js/app.js"></script>
+            <script type="text/javascript" src="assets/js/app.js"></script>
+            <script type="text/javascript" src="assets/js/side-nav.js"></script>
     </body>
 </html>
