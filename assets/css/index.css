@@ -1,5 +1,5 @@
 header {
-    background-color:transparent;
+    background-color:#EA384D;
     border-bottom: none;
 }
 
@@ -17,4 +17,8 @@ header {
     font-weight: 300;
     line-height: 1.5em;
     color: white;
+}
+
+body {
+    height: 1200px;
 }
