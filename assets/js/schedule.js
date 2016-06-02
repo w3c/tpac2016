@@ -5,6 +5,7 @@
     var activeScheduleElement = document.getElementById(scheduleNavigationBtns[0].innerHTML.toLowerCase() + '-schedule');
 
     var expendScheduleBtns = document.getElementsByClassName('item-dropdown');
+    var rsvpBtns = document.getElementsByClassName('rsvp-button');
 
     for (var i = 0; i < expendScheduleBtns.length; i++) {
         (function () {
@@ -16,6 +17,25 @@
                     btn.parentNode.className = btn.parentNode.className.replace(' expand', '')
                 } else {
                     btn.parentNode.className += ' expand';
+                }
+
+            }, false);
+
+        }());
+    }
+
+    for (var i = 0; i < rsvpBtns.length; i++) {
+        (function () {
+
+            var btn = rsvpBtns[i];
+
+                rsvpBtns[i].addEventListener('click', function() {
+                if(btn.parentNode.className.indexOf('active') >= 0) {
+                    btn.parentNode.className = btn.parentNode.className.replace(' active', '')
+                    btn.innerHTML = '<img src="../assets/img/add-button.svg" alt="">';
+                } else {
+                    btn.parentNode.className += ' active';
+                    btn.innerHTML = '<img src="../assets/img/checked-button.svg" alt="">';
                 }
 
             }, false);

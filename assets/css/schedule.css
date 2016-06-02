@@ -149,12 +149,12 @@
     flex-flow: row nowrap;
     align-items: center;
     font-size: 1em;
-    padding: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
     transition: 0.4s;
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings p {
-    padding: 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings .meeting-name {
@@ -170,11 +170,16 @@
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings .rsvp-button {
-    width: 10%;
+    width: 20%;
+    background-color: transparent;
+    border: 0px;
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    flex-flow: column;
+    align-items: flex-end;
     justify-content: flex-end;
+    outline: none;
+    cursor: pointer;
+     -webkit-tap-highlight-color: transparent;
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings .rsvp-button img {
@@ -185,7 +190,7 @@
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings li.active p {
-    color: #2979FF;
+    color: #00C853;
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings li.active .rsvp-button img {
