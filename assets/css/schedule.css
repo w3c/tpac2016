@@ -102,6 +102,7 @@
     outline: none;
     padding: 20px 20px 20px 20px;
     cursor: pointer;
+     -webkit-tap-highlight-color: transparent;
 }
 
 .schedule ul li button.item-dropdown img {

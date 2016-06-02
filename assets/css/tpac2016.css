@@ -31,6 +31,9 @@ header .side-nav-btn {
     box-shadow: none;
     display: flex;
     cursor: pointer;
+    outline: none;
+
+     -webkit-tap-highlight-color: transparent;
 }
 
 header .page-title {
@@ -125,6 +128,8 @@ p {
     text-decoration: none;
     font-size: 1.2em;
     color: rgba(38, 38, 38, 1);
+
+     -webkit-tap-highlight-color: transparent;
 }
 
 .container {
