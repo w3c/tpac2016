@@ -30,6 +30,7 @@ header .side-nav-btn {
     border: 0px;
     box-shadow: none;
     display: flex;
+    cursor: pointer;
 }
 
 header .page-title {
