@@ -149,7 +149,7 @@
     flex-flow: row nowrap;
     align-items: center;
     font-size: 1em;
-    padding: 0px;
+    padding: 10px 0px 10px 0px;
     transition: 0.4s;
 }
 
@@ -174,10 +174,21 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings .rsvp-button img {
     width: 18px;
     height: 18px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.schedule ul.agenda li.expand .item-details .item-meetings li.active p {
+    color: #2979FF;
+}
+
+.schedule ul.agenda li.expand .item-details .item-meetings li.active .rsvp-button img {
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
 }
