@@ -103,7 +103,7 @@
     border: 0px;
     display: flex;
     flex-flow: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     outline: none;
     padding: 20px 20px 20px 20px;
@@ -176,6 +176,7 @@
     display: flex;
     flex-flow: column;
     align-items: flex-end;
+    padding: 0px;
     justify-content: flex-end;
     outline: none;
     cursor: pointer;

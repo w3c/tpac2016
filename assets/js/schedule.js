@@ -73,4 +73,33 @@
         activeScheduleElement.style.display = 'block';
     }
 
+    function get(url, callback) {
+        httpRequest = new XMLHttpRequest();
+
+        if (!httpRequest) {
+            console.log('Giving up :( Cannot create an XMLHTTP instance');
+            return false;
+        }
+        httpRequest.onreadystatechange = callback;
+        httpRequest.open('GET', url);
+        httpRequest.send();
+    }
+
+    window.onload = function() {
+
+        var projects = {};
+
+        get('/data/schedule.json', function(){
+
+            if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                if (httpRequest.status === 200) {
+
+                    console.log(JSON.parse(httpRequest.responseText));
+
+                } else {
+                    console.log('something went wrong with the request');
+                }
+            }
+        });
+    }
 })()
