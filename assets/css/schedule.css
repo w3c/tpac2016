@@ -24,14 +24,16 @@
 }
 
 .schedule nav .container {
-    width: 160%;
     height: 60px;
+    width: 150%;    
     padding: 0px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-between;
     background-color: transparent;
+    overflow: scroll;
+    flex-basis: auto;
+    white-space: nowrap;
 }
 
 .schedule nav button {
