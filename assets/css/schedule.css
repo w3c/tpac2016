@@ -20,6 +20,7 @@
     height: 60px;
     background-color: #EFF1F6;
     overflow: scroll;
+    border-bottom: 1px solid rgba(38,38,38,0.2);
 }
 
 .schedule nav .container {
@@ -43,12 +44,13 @@
     outline: none;
     cursor: pointer;
     white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .schedule nav button.active {
-    padding: 20px 20px 17px 20px;
+    padding: 20px 20px 20px 20px;
     color: rgba(38, 38, 38, 1);
-    border-bottom: 3px solid #EA384D;
+    color: #EA384D;
 }
 
 .schedule ul {

@@ -15,7 +15,7 @@ header {
     top: 0px;
     left: 0px;
     background-color: #EA384D;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(38,38,38,0.2);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
