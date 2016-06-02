@@ -1,0 +1,32 @@
+{
+    "monday": [
+        {
+            "start": "8:00am",
+            "end": "-",
+            "name": "Registrations",
+            "description": "",
+            "sub_event": []
+
+        },
+        {
+            "start": "8:00am",
+            "end": "-"
+        },
+    ],
+
+    "tuesday": {
+
+    },
+
+    "wednesday": {
+
+    },
+
+    "thursday": {
+
+    },
+
+    "friday": {
+
+    }
+}
