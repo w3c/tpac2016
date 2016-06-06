@@ -35,11 +35,31 @@
             </div>
         </header>
 
-
+            <main>
+                <div id="mobile-div" style="width:100%; height: 420px; border:1px solid black; ">
+                    <svg id="mobile-svg" xmlns="http://www.w3.org/2000/svg" style="display: inline; width: inherit; min-width: inherit; max-width: inherit; height: inherit; min-height: inherit; max-height: inherit;" version="1.1">
+                        <defs>
+                            <linearGradient id="linear-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(56,121,217);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(138,192,7);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <g fill="none">
+          <g stroke="#000" fill="#FFF">
+            <rect x="5" y="5" width="240" height="240" fill="url(#linear-gradient)"/>
+            <path d="M 5 5  L 245 245 Z"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+            </main>
             <footer>
 
             </footer>
             <script type="text/javascript" src="../assets/js/app.js"></script>
             <script type="text/javascript" src="../assets/js/side-nav.js"></script>
+            <script type="text/javascript" src="../assets/js/svg-pan-zoom.min.js"></script>
+            <script type="text/javascript" src="../assets/js/hammer.js"></script>
+            <script type="text/javascript" src="../assets/js/map.js"></script>
     </body>
 </html>

@@ -89,16 +89,21 @@
 
         var projects = {};
 
-        get('/data/schedule.json', function(){
+        get('/data/wg-schedule.json', function(){
 
             if (httpRequest.readyState === XMLHttpRequest.DONE) {
+
                 if (httpRequest.status === 200) {
 
-                    console.log(JSON.parse(httpRequest.responseText));
+                    var wgMeetings = JSON.parse(httpRequest.responseText);
+                    console.log(wgMeetings);
+                    for(day in wgMeetings) {
+                    }
 
                 } else {
                     console.log('something went wrong with the request');
                 }
+
             }
         });
     }

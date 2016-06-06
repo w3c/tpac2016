@@ -21,7 +21,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding-left: 20px;
-    z-index: 0;
+    z-index: 100;
 }
 
 header .side-nav-btn {
