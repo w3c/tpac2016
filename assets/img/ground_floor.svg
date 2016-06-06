@@ -3,12 +3,16 @@
   <style>
     rect, path { fill:white; stroke:#000000; stroke-width: 2px;}
     text { font-size: 16px; font-family: sans-serif;}
-    text.w3c { font-size: 2em; } text.bigger { font-size: 1.5em; }
+    text.w3c, text.bigger { font-size: 1.5em; }
     text.w3c { fill: blue; }
     line.w3c, rect.w3c, path.w3c { stroke:blue; stroke-width: 2px;}
+    #walkpaths path { fill: none; stroke: rgba(50, 50, 50, 0.3); stroke-width: 5px }
   </style>
   <g transform="translate(-112,-141)" id="building">
     <path d="m 159,274 2,205 -48,0 0,40 45,-1 -9,94 48,-4 111.96471,-2.8025 L 298,676 l 23,1 2,204 548,-1 0,53 199,-4 0,-100 -7,-1 2,-404 3,0 0,-107 -8,0 0,-28 -26,0 -0.7415,-118.53905 -166.41462,0 L 866,142 l -67,12 -1,32 18,-1 0.44734,68.96785 -8.44734,8.03215 -48,-47 -163,-2 -1,7 -50,51 -1,137 52,49 -19,17 1,32 18,15 -52,53 20,17 -1,32 67,1 -1,27 -120,-1 -1,-54 -77,0 0,56 -29.59087,2.5164 0,0 0,0 L 400,644 l 9,0 -1,-40 -41,0 1,-214 83,2 0,-87 -23,-2 1,-11 9,1 -1,5 29,0 -1,-72 -28,1 1,19 -11,2 -2,-21 46,-8 -2,-3 z" id="ground_building"/>
+    <path
+       id="building_part"
+       d="m 210.81175,422.48749 1.72797,43.19913 42.33514,0 0,-7.77585" />
     <g id="foyers">
       <path d="m 951,647.8623 1,179.5 110.5,0 1,-176.5 -31.5,0.5 0,-4 z" id="foyera"/>
       <path d="m 937.5,531 94,0.5 -0.5,-5 33.5,0.5 -1,123.5 -32,0 0.5,-4 -82.5,1 0,4 -12,0 z" id="foyerb"/>
@@ -26,9 +30,9 @@
       <rect id="auditorium7" class='w3c' width="81.628441" height="92.17823" x="241" y="309.18408"/>
     </g>
     <g id='rooms'>
-      <rect id="room3a" class='w3c' width="85.534248" height="71.03437" x="867.46576" y="319"/>
-      <rect id="room3b" class='w3c' width="85.5" height="68.5" x="867.5" y="249.8623"/>
-      <rect id="room3c" class='w3c' width="85.534241" height="65.667999" x="867.46576" y="183.69431"/>
+      <rect class='w3c' id="room3a" width="85.534248" height="71.03437" x="867.46576" y="319"/>
+      <rect class='w3c' id="room3b" width="85.5" height="68.5" x="867.5" y="249.8623"/>
+      <rect class='w3c' id="room3c" width="85.534241" height="65.667999" x="867.46576" y="183.69431"/>
       <rect id="room001" width="38.259251" height="41.193871" x="798.74072" y="330"/>
       <rect id="room002" width="38.367737" height="39.771179" x="798.75" y="290.59113"/>
       <path id="room003" d="m 747.86714,222.10838 -49.61714,0.50392 -0.25,23.25 39.5,-0.5 10.5,-8.5 z"/>
@@ -38,6 +42,15 @@
       <path id="room007" class='w3c' d="m 308.96471,574.58244 -57.11421,0 0,30.97736 54.3995,-1.1975 z"/>
       <path id="room008" class='w3c' d="m 220.5085,552.69222 0,53.35158 30.51106,0 -0.51956,-40.1815 -11.5,-0.25 0.75,-12.25 z"/>
     </g>
+  </g>
+  <g id="walkpaths">
+    <path d="m 832.01523,67.390642 39.7432,-0.863983 0,285.114251 -641.93906,0.86399 -0.86398,17.27965 -44.06312,0 0,72.57454" />
+    <path d="m 121.82155,418.16757 62.20674,0" />
+    <path d="m 184.02829,429.39935 19.8716,0 -0.86398,32.83134" />
+    <path d="m 184.89227,368.92057 0.86399,-48.38303 -12.95974,0 0.86398,-69.1186" />
+    <path d="m 114.90968,251.41893 0.86399,69.11861 57.02285,0" />
+    <path d="m 832.87922,146.01306 38.87921,0" />
+    <path d="m 832.87922,212.53972 38.01523,0" />
   </g>
   <g transform="translate(-112,-141)" id="labels">
     <text style="font-size:3em;" x="263" y="195">GROUND FLOOR</text>
@@ -60,19 +73,18 @@
       <text class='w3c' style="font-size: 1em;" transform="rotate(-50)" x="-130" y="450">Auditorium</text>
       <text class='w3c' x="290" y="390">7</text>
     </g>
-    <text class='w3c' x="890" y="361">3.A</text>
-    <text class='w3c' x="890" y="285">3.B</text>
-    <text class='w3c' x="890" y="219">3.C</text>
+    <text class='w3c' x="895" y="361">3.A</text>
+    <text class='w3c' x="895" y="285">3.B</text>
+    <text class='w3c' x="895" y="219">3.C</text>
     <text x="802" y="352">0.01</text>
     <text x="802" y="314">0.02</text>
     <text x="709" y="239">0.03</text>
     <text x="660" y="239">0.04</text>
-    <text x="614" y="239">0.05</text>
-    <text class='w3c' x="240" y="720">0.06</text>
-    <line class='w3c' x1="322" y1="618" x2="278" y2="695" />
-    <text class='w3c' x="140" y="750">0.07</text>
-    <line class='w3c' x1="200" y1="720" x2="265" y2="597" />
-    <text class='w3c' x="140" y="645">0.08</text>
-    <line class='w3c' x1="240" y1="583" x2="210" y2="621" />
+    <text x="616" y="239">0.05</text>
+    <text class='w3c' x="240" y="670">0.06</text>
+    <line class='w3c' x1="332" y1="618" x2="288" y2="648" />
+    <text class='w3c' x="255" y="597">0.07</text>
+    <text class='w3c' x="190" y="645">0.08</text>
+    <line x1="236" y1="583" x2="223" y2="621" class='w3c' />
   </g>
 </svg>
