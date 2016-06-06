@@ -60,7 +60,7 @@ window.onload = function() {
   }
 
   // Expose to window namespace for testing purposes
-  window.panZoom = svgPanZoom('#mobile-svg', {
+  window.panZoom = svgPanZoom('#my-embed', {
     zoomEnabled: true
   , controlIconsEnabled: true
   , fit: 1
