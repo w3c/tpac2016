@@ -8,6 +8,7 @@
     .w3c-line, rect.w3c, path.w3c { stroke:blue; stroke-width: 2px;}
     .w3c-line { fill: none; }
     #walkpaths path { fill: none; stroke: rgba(50, 50, 50, 0.3); stroke-width: 5px }
+    #building path { stroke-width: 5px; }
   </style>
 
   <g transform="translate(-130.60296,-133.16003)" id="building">
