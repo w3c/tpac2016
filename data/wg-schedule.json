@@ -1,0 +1,857 @@
+{
+    "monday": [
+        
+        {
+            "wg": "Accessible Platform Architectures WG",
+            "room": "1.02",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Automotive WG",
+            "room": "5C",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 45,
+            "observation": ""
+        },
+        {
+            "wg": "Browser Testing and Tools WG",
+            "room": "1.09",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 12,
+            "observation": ""
+        },
+        {
+            "wg": "Cascading Style Sheets (CSS) WG",
+            "room": "5A",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Device and Sensors WG",
+            "room": "1.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Digital Publishing IG",
+            "room": "0.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Education and Outreach WG",
+            "room": "1.05",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Efficient XML Interchange WG",
+            "room": "1.13",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 3,
+            "observation": ""
+        },
+        {
+            "wg": "HTML Media Extensions WG",
+            "room": "1.12",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Multimodal Interaction WG",
+            "room": "1.04",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 9,
+            "observation": ""
+        },
+        {
+            "wg": "Pointer Events WG",
+            "room": "1.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 5,
+            "observation": ""
+        },
+        {
+            "wg": "Research Questions TF",
+            "room": "1.03",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Spatial Data on the Web WG",
+            "room": "Auditorio III",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 20,
+            "observation": ""
+        },
+        {
+            "wg": "Technical Architecture Group (TAG)",
+            "room": "1.10",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "am only"
+        },
+        {
+            "wg": "Technology and Policy IG",
+            "room": "1.08",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "Member only observers"
+        },
+        {
+            "wg": "Timed Text WG",
+            "room": "0.08",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Web and TV IG",
+            "room": "Auditorio IV",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 70,
+            "observation": ""
+        },
+        {
+            "wg": "Web Content Accessibility Guidelines WG",
+            "room": "0.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Web Payments WG",
+            "room": "5B",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Web Platform WG: Web Components",
+            "room": "1.15",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 25,
+            "observation": ""
+        },
+        {
+            "wg": "Web Security IG",
+            "room": "1.10",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": "pm only"
+        }
+    ],
+
+    "tuesday": [
+        {
+            "wg": "Accessible Platform Architectures WG",
+            "room": "1.02",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Automotive WG",
+            "room": "5C",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 45,
+            "observation": ""
+        },
+        {
+            "wg": "Browser Testing and Tools WG",
+            "room": "1.09",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 12,
+            "observation": ""
+        },
+        {
+            "wg": "Cascading Style Sheets (CSS) WG",
+            "room": "5A",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Device and Sensors WG",
+            "room": "1.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Digital Publishing IG",
+            "room": "0.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Education and Outreach WG",
+            "room": "1.05",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Efficient XML Interchange WG",
+            "room": "1.13",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 3,
+            "observation": ""
+        },
+        {
+            "wg": "HTML Media Extensions WG",
+            "room": "1.12",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Multimodal Interaction WG",
+            "room": "1.04",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 9,
+            "observation": ""
+        },
+        {
+            "wg": "Pointer Events WG",
+            "room": "1.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 5,
+            "observation": ""
+        },
+        {
+            "wg": "Research Questions TF",
+            "room": "1.03",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Spatial Data on the Web WG",
+            "room": "Auditorio III",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 20,
+            "observation": ""
+        },
+        {
+            "wg": "Technical Architecture Group (TAG)",
+            "room": "1.10",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "am only"
+        },
+        {
+            "wg": "Technology and Policy IG",
+            "room": "1.08",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "Member only observers"
+        },
+        {
+            "wg": "Timed Text WG",
+            "room": "0.08",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Web and TV IG",
+            "room": "Auditorio IV",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 70,
+            "observation": ""
+        },
+        {
+            "wg": "Web Content Accessibility Guidelines WG",
+            "room": "0.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Web Payments WG",
+            "room": "5B",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Web Platform WG: Web Components",
+            "room": "1.15",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 25,
+            "observation": ""
+        },
+        {
+            "wg": "Web Security IG",
+            "room": "1.10",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        }
+    ],
+
+    "wednesday": [
+        {
+            "wg": "Accessible Platform Architectures WG",
+            "room": "1.02",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Automotive WG",
+            "room": "5C",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 45,
+            "observation": ""
+        },
+        {
+            "wg": "Browser Testing and Tools WG",
+            "room": "1.09",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 12,
+            "observation": ""
+        },
+        {
+            "wg": "Cascading Style Sheets (CSS) WG",
+            "room": "5A",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Device and Sensors WG",
+            "room": "1.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Digital Publishing IG",
+            "room": "0.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Education and Outreach WG",
+            "room": "1.05",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Efficient XML Interchange WG",
+            "room": "1.13",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 3,
+            "observation": ""
+        },
+        {
+            "wg": "HTML Media Extensions WG",
+            "room": "1.12",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Multimodal Interaction WG",
+            "room": "1.04",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 9,
+            "observation": ""
+        },
+        {
+            "wg": "Pointer Events WG",
+            "room": "1.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 5,
+            "observation": ""
+        },
+        {
+            "wg": "Research Questions TF",
+            "room": "1.03",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Spatial Data on the Web WG",
+            "room": "Auditorio III",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 20,
+            "observation": ""
+        },
+        {
+            "wg": "Technical Architecture Group (TAG)",
+            "room": "1.10",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "am only"
+        },
+        {
+            "wg": "Technology and Policy IG",
+            "room": "1.08",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "Member only observers"
+        },
+        {
+            "wg": "Timed Text WG",
+            "room": "0.08",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Web and TV IG",
+            "room": "Auditorio IV",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 70,
+            "observation": ""
+        },
+        {
+            "wg": "Web Content Accessibility Guidelines WG",
+            "room": "0.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Web Payments WG",
+            "room": "5B",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Web Platform WG: Web Components",
+            "room": "1.15",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 25,
+            "observation": ""
+        },
+        {
+            "wg": "Web Security IG",
+            "room": "1.10",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        }
+    ],
+
+    "thursday": [
+        {
+            "wg": "Accessible Platform Architectures WG",
+            "room": "1.02",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Automotive WG",
+            "room": "5C",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 45,
+            "observation": ""
+        },
+        {
+            "wg": "Browser Testing and Tools WG",
+            "room": "1.09",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 12,
+            "observation": ""
+        },
+        {
+            "wg": "Cascading Style Sheets (CSS) WG",
+            "room": "5A",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Device and Sensors WG",
+            "room": "1.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Digital Publishing IG",
+            "room": "0.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Education and Outreach WG",
+            "room": "1.05",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Efficient XML Interchange WG",
+            "room": "1.13",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 3,
+            "observation": ""
+        },
+        {
+            "wg": "HTML Media Extensions WG",
+            "room": "1.12",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Multimodal Interaction WG",
+            "room": "1.04",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 9,
+            "observation": ""
+        },
+        {
+            "wg": "Pointer Events WG",
+            "room": "1.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 5,
+            "observation": ""
+        },
+        {
+            "wg": "Research Questions TF",
+            "room": "1.03",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Spatial Data on the Web WG",
+            "room": "Auditorio III",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 20,
+            "observation": ""
+        },
+        {
+            "wg": "Technical Architecture Group (TAG)",
+            "room": "1.10",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "am only"
+        },
+        {
+            "wg": "Technology and Policy IG",
+            "room": "1.08",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "Member only observers"
+        },
+        {
+            "wg": "Timed Text WG",
+            "room": "0.08",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Web and TV IG",
+            "room": "Auditorio IV",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 70,
+            "observation": ""
+        },
+        {
+            "wg": "Web Content Accessibility Guidelines WG",
+            "room": "0.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Web Payments WG",
+            "room": "5B",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Web Platform WG: Web Components",
+            "room": "1.15",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 25,
+            "observation": ""
+        },
+        {
+            "wg": "Web Security IG",
+            "room": "1.10",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        }
+    ],
+
+    "friday": [
+        {
+            "wg": "Accessible Platform Architectures WG",
+            "room": "1.02",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Automotive WG",
+            "room": "5C",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 45,
+            "observation": ""
+        },
+        {
+            "wg": "Browser Testing and Tools WG",
+            "room": "1.09",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 12,
+            "observation": ""
+        },
+        {
+            "wg": "Cascading Style Sheets (CSS) WG",
+            "room": "5A",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Device and Sensors WG",
+            "room": "1.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Digital Publishing IG",
+            "room": "0.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Education and Outreach WG",
+            "room": "1.05",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Efficient XML Interchange WG",
+            "room": "1.13",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 3,
+            "observation": ""
+        },
+        {
+            "wg": "HTML Media Extensions WG",
+            "room": "1.12",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Multimodal Interaction WG",
+            "room": "1.04",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 9,
+            "observation": ""
+        },
+        {
+            "wg": "Pointer Events WG",
+            "room": "1.07",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 5,
+            "observation": ""
+        },
+        {
+            "wg": "Research Questions TF",
+            "room": "1.03",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Spatial Data on the Web WG",
+            "room": "Auditorio III",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 20,
+            "observation": ""
+        },
+        {
+            "wg": "Technical Architecture Group (TAG)",
+            "room": "1.10",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "am only"
+        },
+        {
+            "wg": "Technology and Policy IG",
+            "room": "1.08",
+            "private": true,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": "Member only observers"
+        },
+        {
+            "wg": "Timed Text WG",
+            "room": "0.08",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 10,
+            "observation": ""
+        },
+        {
+            "wg": "Web and TV IG",
+            "room": "Auditorio IV",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 70,
+            "observation": ""
+        },
+        {
+            "wg": "Web Content Accessibility Guidelines WG",
+            "room": "0.06",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        },
+        {
+            "wg": "Web Payments WG",
+            "room": "5B",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 40,
+            "observation": ""
+        },
+        {
+            "wg": "Web Platform WG: Web Components",
+            "room": "1.15",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 25,
+            "observation": ""
+        },
+        {
+            "wg": "Web Security IG",
+            "room": "1.10",
+            "private": false,
+            "agenda": "",
+            "attendees-estimation": 15,
+            "observation": ""
+        }
+    ]
+}

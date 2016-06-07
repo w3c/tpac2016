@@ -158,34 +158,35 @@
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings .meeting-name {
-    width: 50%;
+    width: 40%;
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings .meeting-location {
     width: 20%;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings .meeting-comment {
+.schedule ul.agenda li.expand .item-details .item-meetings .meeting-info {
     width: 20%;
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings .rsvp-button {
     width: 20%;
+    height: 40px;
     background-color: transparent;
     border: 0px;
     display: flex;
     flex-flow: column;
     align-items: flex-end;
     padding: 0px;
-    justify-content: flex-end;
+    justify-content: center;
     outline: none;
     cursor: pointer;
      -webkit-tap-highlight-color: transparent;
 }
 
 .schedule ul.agenda li.expand .item-details .item-meetings .rsvp-button img {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
