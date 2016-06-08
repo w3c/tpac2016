@@ -6,8 +6,8 @@
     }
 
     var scheduleNavigationBtns = document.getElementsByClassName('schedule-navigation-btn');
-    var activeScheduleNavigationBtn = scheduleNavigationBtns[5];
-    var activeScheduleElement = document.getElementById(scheduleNavigationBtns[5].innerHTML.toLowerCase().replace(' ', '') + '-schedule');
+    var activeScheduleNavigationBtn = scheduleNavigationBtns[0];
+    var activeScheduleElement = document.getElementById(scheduleNavigationBtns[0].innerHTML.toLowerCase().replace(' ', '') + '-schedule');
 
     var expendScheduleBtns = document.getElementsByClassName('item-dropdown');
     var rsvpBtns;
@@ -31,7 +31,7 @@
 
 
 
-    loadSchedule(scheduleNavigationBtns[5].innerHTML.toLowerCase().replace(' ', ''));
+    loadSchedule(scheduleNavigationBtns[0].innerHTML.toLowerCase().replace(' ', ''));
 
     for (var i = 0; i < scheduleNavigationBtns.length; i++) {
         (function () {
