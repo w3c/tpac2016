@@ -6,8 +6,8 @@
     }
 
     var scheduleNavigationBtns = document.getElementsByClassName('schedule-navigation-btn');
-    var activeScheduleNavigationBtn = scheduleNavigationBtns[0];
-    var activeScheduleElement = document.getElementById(scheduleNavigationBtns[0].innerHTML.toLowerCase() + '-schedule');
+    var activeScheduleNavigationBtn = scheduleNavigationBtns[5];
+    var activeScheduleElement = document.getElementById(scheduleNavigationBtns[5].innerHTML.toLowerCase().replace(' ', '') + '-schedule');
 
     var expendScheduleBtns = document.getElementsByClassName('item-dropdown');
     var rsvpBtns;
@@ -31,14 +31,14 @@
 
 
 
-    loadSchedule(scheduleNavigationBtns[0].innerHTML.toLowerCase());
+    loadSchedule(scheduleNavigationBtns[5].innerHTML.toLowerCase().replace(' ', ''));
 
     for (var i = 0; i < scheduleNavigationBtns.length; i++) {
         (function () {
 
             var btn = scheduleNavigationBtns[i];
             var agendaName = scheduleNavigationBtns[i].innerHTML.toLowerCase();
-
+            agendaName = agendaName.replace(' ', '');
             scheduleNavigationBtns[i].addEventListener('click', function() {
                 loadSchedule(agendaName);
                 var prevScheduleNavigationBtn = activeScheduleNavigationBtn;
@@ -59,6 +59,33 @@
         activeScheduleElement = document.getElementById(agendaName + '-schedule');
         prevScheduleElement.style.display = 'none';
         activeScheduleElement.style.display = 'block';
+    }
+
+    function scheduleSavedMotification() {
+        var meetings = JSON.parse(localStorage.getItem("myMeetings"));
+        var n = meetings.length + 1;
+        console.log(n);
+    }
+
+    function loadMySchedules(wgMeetings) {
+        var index = 'monday';
+        var mySchedules = document.getElementById('myschedule-schedule');
+        for(var i in wgMeetings[index]) {
+            var currentMeeting = wgMeetings[i];
+            var buffer = '<li id="' + index + wgMeetings[index][i].wg.replace(/ /g,'') + '">'
+            + '<p class="meeting-name">'    +    wgMeetings[index][i].wg   +    ' </p>'
+            + '<p class="meeting-location"> Room <br>' + wgMeetings[index][i].room + '</p>'
+            + '<p class="meeting-info">' + ' Observers allowed ' + '</p>'
+            + '<button class="rsvp-button" data-id="' + index + wgMeetings[index][i].wg.replace(/ /g,'') + '"><img src="../assets/img/add-button.svg" alt=""></button>'
+            + '</li>';
+            try {
+                document.getElementById('myschedule-monday').innerHTML += buffer;
+            } catch (e) {
+                console.log('error whith' + index + '-wg-meetings:' + e);
+            }
+
+        }
+
     }
 
     function loadGroupMeetings(wgMeetings) {
@@ -109,7 +136,7 @@
 
                             var meetings = JSON.parse(localStorage.getItem("myMeetings"));
                         meetings.push(btn.dataset.id);
-
+                        scheduleSavedMotification();
                         localStorage.myMeetings = JSON.stringify(meetings);
                         btn.parentNode.className += ' active';
                         btn.innerHTML = '<img src="../assets/img/checked-button.svg" alt="">';
@@ -161,6 +188,7 @@
 
                     var wgMeetings = JSON.parse(httpRequest.responseText);
                     loadGroupMeetings(wgMeetings);
+                    loadMySchedules(wgMeetings);
 
                 } else {
                     console.log('something went wrong with the request');

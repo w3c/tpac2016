@@ -139,3 +139,17 @@ p {
 .sr-only {
     display: none;
 }
+
+#notification-pane {
+    width: 90%;
+    position: fixed;
+    left: 5%;
+    bottom: 10px;
+    height: 60px;
+    z-index: 1000;
+    border-radius: 3px;
+    background-color: rgba(38,38,38,1);
+    border: 1px solid rgba(38,38,38,1);
+    display: none;
+
+}

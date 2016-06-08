@@ -56,48 +56,51 @@
     color: #EA384D;
 }
 
-.schedule ul.agenda {
+.schedule .agenda {
     padding: 0px;
     margin: 0px;
     margin-top: 120px;
     display: none;
 }
 
-.schedule ul.agenda > li {
+.schedule .agenda  li {
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     font-size: 1em;
     padding: 0px;
-    border-bottom: 1px solid rgba(38, 38, 38, 0.1);
     transition: 0.4s;
 }
 
-.schedule ul.agenda li.expand {
+.schedule .agenda > li {
+    border-bottom: 1px solid rgba(38, 38, 38, 0.1);
+}
+
+.schedule .agenda li.expand {
     background-color: #F5F7FC;
 }
 
-.schedule ul.agenda li p {
+.schedule .agenda li p {
     margin: 0px;
     padding: 20px 20px 20px 20px;
     line-height: 1.4em;
 }
 
-.schedule ul.agenda li .item-time {
+.schedule .agenda li .item-time {
     width: 30%;
 }
 
-.schedule ul.agenda li .item-time .end-time {
+.schedule .agenda li .item-time .end-time {
     color: rgba(38, 38, 38, 0.4);
     font-size: 0.8em;
 }
 
-.schedule ul.agenda li .item-name {
+.schedule .agenda li .item-name {
     width: 50%;
 }
 
-.schedule ul.agenda li button.item-dropdown {
+.schedule .agenda li button.item-dropdown {
     width: 20%;
     background-color: transparent;
     border: 0px;
@@ -111,39 +114,39 @@
      -webkit-tap-highlight-color: transparent;
 }
 
-.schedule ul.agenda li button.item-dropdown img {
+.schedule .agenda li button.item-dropdown img {
     width: 20px;
     height: 20px;
     transition: 0.4s;
 }
 
-.schedule ul.agenda li.expand button.item-dropdown img {
+.schedule .agenda li.expand button.item-dropdown img {
     transform: rotate(180deg);
 }
 
-.schedule ul.agenda li .item-details {
+.schedule .agenda li .item-details {
     width: 100%;
     display: none;
 }
 
-.schedule ul.agenda li.expand .item-details {
+.schedule .agenda li.expand .item-details {
     display: block;
     width: 100%;
     padding-bottom: 20px;
 }
 
-.schedule ul.agenda li.expand .item-details p {
+.schedule .agenda li.expand .item-details p {
     padding-top: 0px;
     font-size: 0.8em;
     color: rgba(38, 38, 38, 0.5);
 }
 
-.schedule ul.agenda li.expand .item-details ul.item-meetings {
+.schedule .agenda li.expand .item-details ul.item-meetings {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings li {
+.schedule .agenda li.expand .item-details .item-meetings li {
     list-style-type: none;
     display: flex;
     flex-flow: row nowrap;
@@ -153,23 +156,23 @@
     transition: 0.4s;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings p {
+.schedule .agenda li.expand .item-details .item-meetings p {
     padding: 10px 0px 10px 0px;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings .meeting-name {
+.schedule .agenda li.expand .item-details .item-meetings .meeting-name {
     width: 40%;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings .meeting-location {
+.schedule .agenda li.expand .item-details .item-meetings .meeting-location {
     width: 20%;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings .meeting-info {
+.schedule .agenda li.expand .item-details .item-meetings .meeting-info {
     width: 20%;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings .rsvp-button {
+.schedule .agenda li.expand .item-details .item-meetings .rsvp-button {
     width: 20%;
     height: 40px;
     background-color: transparent;
@@ -184,18 +187,108 @@
      -webkit-tap-highlight-color: transparent;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings .rsvp-button img {
+.schedule .agenda li.expand .item-details .item-meetings .rsvp-button img {
     width: 20px;
     height: 20px;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings li.active p {
+.schedule .agenda li.expand .item-details .item-meetings li.active p {
     color: #00C853;
 }
 
-.schedule ul.agenda li.expand .item-details .item-meetings li.active .rsvp-button img {
+.schedule .agenda li.expand .item-details .item-meetings li.active .rsvp-button img {
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+#myschedule-schedule {
+    width: 100%;
+}
+#myschedule-schedule h2 {
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0px;
+    font-size: 1em;
+    color: rgba(38,38,38,0.9);
+    border-bottom: 1px solid rgba(38,38,38,0.1);
+}
+
+#myschedule-schedule ul {
+    padding: 0px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#myschedule-schedule ul li {
+    padding: 0px;
+    margin-top: 0px;
+    width: 100%;
+
+        list-style-type: none;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        font-size: 1em;
+        padding: 0px 0px 0px 0px;
+        transition: 0.4s;
+    --border-bottom: 1px solid rgba(38, 38, 38, 0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#myschedule-schedule ul li  p {
+    font-size: 0.8em;
+    padding: 0px;
+}
+
+
+
+#myschedule-schedule ul li .meeting-name {
+    width: 40%;
+}
+
+#myschedule-schedule ul li .meeting-location {
+    width: 20%;
+}
+
+#myschedule-schedule ul li .meeting-info {
+    width: 20%;
+}
+
+#myschedule-schedule ul li .rsvp-button {
+    width: 20%;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    padding: 0px;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+     -webkit-tap-highlight-color: transparent;
+}
+
+#myschedule-schedule ul li .rsvp-button img {
+    width: 20px;
+    height: 20px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#myschedule-schedule ul li.active p {
+    color: #00C853;
+}
+
+#myschedule-schedule ul li.active .rsvp-button img {
 -webkit-filter: grayscale(0);
 filter: grayscale(0);
 }

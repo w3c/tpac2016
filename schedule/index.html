@@ -4,14 +4,18 @@
         <title>Schedule</title>
         <meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#D31027">
-        <meta name="apple-mobile-web-app-status-bar-style" content="#D31027">
+        <meta name="theme-color" content="#EA384D">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#EA384D">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,100,300,700,900' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../assets/css/tpac2016.css">
         <link rel="stylesheet" href="../assets/css/schedule.css">
         <link rel="manifest" href="../manifest.json">
     </head>
     <body>
+
+        <div id="notification-pane">
+
+        </div>
 
         <div class="side-nav">
             <div id="side-nav-content">
@@ -43,7 +47,7 @@
                         <button class="schedule-navigation-btn" type="button" name="button">Wednesday</button>
                         <button class="schedule-navigation-btn" type="button" name="button">Thursday</button>
                         <button class="schedule-navigation-btn" type="button" name="button">Friday</button>
-                        <!--<button class="schedule-navigation-btn" type="button" name="button">My Schedule</button>-->
+                        <button class="schedule-navigation-btn" type="button" name="button">My Schedule</button>
                     </div>
                 </nav>
                 <ul id="monday-schedule" class="agenda">
@@ -719,6 +723,18 @@
                         </button>
                     </li>
                 </ul>
+
+                <div  id="myschedule-schedule" class="agenda">
+
+                    <h2>Monday</h2>
+                    <ul id="myschedule-monday">
+                    </ul>
+
+                    <h2>Tuesday</h2>
+                    <ul id="myschedule-tuesday">
+
+                    </ul>
+                </div>
 
             </section>
         </main>
