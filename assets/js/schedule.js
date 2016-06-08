@@ -180,7 +180,7 @@
 
         console.log(localStorage.myMeetings);
 
-        get('data/wg-schedule.json', function(){
+        get('../data/wg-schedule.json', function(){
 
             if (httpRequest.readyState === XMLHttpRequest.DONE) {
 
