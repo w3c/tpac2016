@@ -48,16 +48,19 @@ header .page-title h1 {
 h1 {
     font-size: 1.6em;
     font-weight: 100;
+    color: #47525d;
 }
 
 h2 {
     font-size: 1.2em;
     font-weight: 400;
     line-height:1.5em;
+    color: #111111;
 }
 
 p {
     line-height: 1.4em;
+    color: #47525d;
 }
 
 #side-nav {
