@@ -1,22 +1,101 @@
 header {
-    background-color:#EA384D;
+    background-color:transparent;
+    display: none;
     border-bottom: none;
 }
 
 .hero {
-    padding-top: 120px;
-    padding-bottom: 30px;
-    background-color: #EA384D;
+  height: 300px;
+  background-color: transparent;
+  --background: url('../img/lisbon-cover.jpg');
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .hero .container {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+      padding-top: 110px;
+      padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    --background: linear-gradient(-45deg, rgba(254,199,108,1), rgba(234,56,77,1));
+  --  background-color: rgba(234,56,77,1);
+    box-sizing: border-box;
+}
+
+.hero .container img {
+    width: 80px;
 }
 
 .hero .container h1 {
     line-height: 1.5em;
     color: white;
+    font-size:1.5em;
+    font-weight: 300;
+    text-align: left;
 }
+
+main {
+}
+
+main section.date-and-location {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+main section.date-and-location .container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+main section.date-and-location .end-date {
+  color: rgba(38, 38, 38, 0.4);
+  font-size: 0.8em;
+}
+
+main .icon {
+  width: 15%;
+}
+
+main .icon img {
+  width: 30px;
+}
+
+main .content {
+  width: 85%;
+}
+
+main .content p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+main .expand {
+  width: 15%;
+  background-color: transparent;
+  border: 0px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  padding: 15px 15px 15px 15px;
+  cursor: pointer;
+}
+
+main .expand img {
+    width: 25px;
+    height: 25px;
+    transition: 0.4s;
+}
+
+
 
 body {
     height: 1200px;

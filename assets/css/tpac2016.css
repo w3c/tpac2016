@@ -2,7 +2,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     outline: 0px;
-    font-family: 'Helvetica';
+    font-family: sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     background-color: white;
