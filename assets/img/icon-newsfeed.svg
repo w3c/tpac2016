@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 116 120"
+	 style="enable-background:new 0 0 116 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#0F81E0;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:#C6E3F8;}
+</style>
+<title>g350</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="g350" transform="translate(2.000000, 2.000000)" sketch:type="MSLayerGroup">
+		<path id="Fill-107" sketch:type="MSShapeGroup" class="st0" d="M10,116L10,116c-5.5,0-10-4.5-10-10V60h20v46
+			C20,111.5,15.5,116,10,116L10,116z"/>
+		<path id="Stroke-108" sketch:type="MSShapeGroup" class="st1" d="M10,116L10,116c-5.5,0-10-4.5-10-10V60h20v46
+			C20,111.5,15.5,116,10,116L10,116z"/>
+		<path id="Fill-109" sketch:type="MSShapeGroup" class="st0" d="M20,0v106c0,5.5-4.5,10-10,10h92c5.5,0,10-4.5,10-10V0H20L20,0z"/>
+		<path id="Stroke-110" sketch:type="MSShapeGroup" class="st1" d="M20,0v106c0,5.5-4.5,10-10,10h92c5.5,0,10-4.5,10-10V0H20L20,0z"
+			/>
+		<path id="Fill-111" sketch:type="MSShapeGroup" class="st2" d="M32,32h24v24H32V32z"/>
+		<path id="Stroke-112" sketch:type="MSShapeGroup" class="st1" d="M32,32h24v24H32V32z"/>
+		<path id="Stroke-113" sketch:type="MSShapeGroup" class="st1" d="M68,32h32 M68,44h32 M68,56h32 M34,68h66 M34,80h30 M34,92h30
+			 M34,104h30"/>
+		<path id="Fill-114" sketch:type="MSShapeGroup" class="st2" d="M76,104h24V80H76V104z"/>
+		<path id="Stroke-115" sketch:type="MSShapeGroup" class="st1" d="M76,104h24V80H76V104z"/>
+		<path id="Stroke-116" sketch:type="MSShapeGroup" class="st1" d="M20,24h92"/>
+		<path id="Fill-117" sketch:type="MSShapeGroup" class="st2" d="M44,8h44v8H44V8z"/>
+		<path id="Stroke-118" sketch:type="MSShapeGroup" class="st1" d="M44,8h44v8H44V8z"/>
+	</g>
+</g>
+</svg>

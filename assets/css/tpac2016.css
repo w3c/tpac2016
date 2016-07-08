@@ -79,13 +79,13 @@ html, body {
 
 #side-nav nav ul li a .description {
   width: 80%;
-  padding: 10px 0px 10px 0px;
-  margin-left: 20px;
+  padding: 5px 0px 5px 5px;
+  margin-left: 0px;
   border-bottom: 0.5px solid rgba(38,38,38,0.1);
 }
 
 #side-nav nav ul li a img {
-  width: 40px;
+  width: 30px;
 }
 
 main header {
