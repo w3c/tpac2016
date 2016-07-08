@@ -4,15 +4,83 @@
     <title>TPAC 2016: W3C Combined Technical Plenary / Advisory Committee Meeting</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#D31027">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#D31027">
     <link rel="stylesheet" href="assets/css/tpac2016.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="manifest" href="manifest.json">
   </head>
-
   <body>
-    <div class="side-nav">
+    <aside id="side-nav" class="active">
+      <header>
+
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <img src="assets/img/calendar-icon.png" alt="">
+              </div>
+              <div class="description">
+                <p>
+                  Home
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <img src="assets/img/calendar-icon.png" alt="">
+              </div>
+              <div class="description">
+                <p>
+                  Schedule
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <img src="assets/img/calendar-icon.png" alt="">
+              </div>
+              <div class="description">
+                <p>
+                  Map
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <img src="assets/img/calendar-icon.png" alt="">
+              </div>
+              <div class="description">
+                <p>
+                  My schedule
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <header>
+        <div class="container row">
+          <button id="side-nav-btn" type="button" name="side-nav"><img src="assets/img/icon-sidenav.svg" alt="open menu"></button>
+        </div>
+      </header>
+    </main>
+    <div id="mask" class="active"></div>
+
+
+
+
+
+
+    <!--<div class="side-nav">
       <div id="side-nav-content">
         <div class="side-nav-header">
         </div>
@@ -35,8 +103,6 @@
     <main>
       <section class="hero">
         <div class="container">
-          <!--<img src="assets/img/web_logo.svg" alt="">
-          <h1>Technical Plenary <br> Advisory Committee </h1>-->
         </div>
       </section>
       <section class="date">
@@ -51,9 +117,6 @@
               <span class="sub-info"> September 23, 2016 </span>
             </p>
           </div>
-          <!--<button class="expand">
-              <img src="assets/img/icon-expand.svg" alt="">
-          </button>-->
         </div>
       </section>
       <section class="location">
@@ -68,9 +131,6 @@
               <span class="sub-info"> Centro de Congressos de Lisboa</span>
             </p>
           </div>
-          <!--<button class="expand">
-              <img src="assets/img/icon-expand.svg" alt="">
-          </button>-->
         </div>
       </section>
       <section class="details">
@@ -81,8 +141,17 @@
           </p>
           <p>
             New! As part of an experiment the W3C Community Groups will be able to hold a 2 hour meeting on Monday, Tuesday, Thursday or Friday.
-Outside of their Community Group meetings, non W3C-Member CG participants may attend as observers the Working and Interest groups meetings who accept observers.
-For further details, see Participation Policies and Recommendations
+            Outside of their Community Group meetings, non W3C-Member CG participants may attend as observers the Working and Interest groups meetings who accept observers.
+            For further details, see Participation Policies and Recommendations
+          </p>
+        </div>
+      </section>
+
+      <section class="details">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            The combined Technical Plenary / Advisory Committee Meetings Week brings together W3C Technical Groups, the Advisory Board, the TAG and the Advisory Committee for an exciting week of coordinated work.
           </p>
         </div>
       </section>
@@ -90,8 +159,8 @@ For further details, see Participation Policies and Recommendations
 
             <footer>
 
-            </footer>
+            </footer>-->
   <script type="text/javascript" src="assets/js/app.js"></script>
-  <script type="text/javascript" src="assets/js/side-nav.js"></script>
+  <script type="text/javascript" src="assets/js/sidenav.js"></script>
   </body>
 </html>
