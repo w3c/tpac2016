@@ -8,5 +8,6 @@
          "type": "image/png"
         }
     ],
-    "display": "standalone"
+    "display": "standalone",
+    "background_color": "#C2001D"
 }

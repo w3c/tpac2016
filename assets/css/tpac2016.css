@@ -1,4 +1,5 @@
 html, body {
+  width: 100%;
     margin: 0px;
     padding: 0px;
     outline: 0px;
@@ -12,12 +13,15 @@ html, body {
   width: 100%;
   height: 100%;
   padding: 0px 20px 0px 20px;
+  box-sizing: border-box;
+  display: flex;
 }
 
 .row {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  box-sizing: border-box;
 }
 
 #mask {
@@ -53,8 +57,44 @@ html, body {
 
 #side-nav header {
   width: 100%;
-  height: 120px;
   background-color: #f6f8fa;
+  --border-bottom: 3px solid #D4A525;
+  padding-top: 5px;
+  border-bottom: 0.5px solid rgba(38,38,38,0.05);
+}
+
+#side-nav header .container {
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 0px 0px 0px 10px;
+
+}
+
+#side-nav header .side-nav-controls {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
+#side-nav header .side-nav-controls button {
+  background: none;
+  border: none;
+  display: flex;
+  padding: 10px;
+}
+
+#side-nav header .side-nav-controls button img {
+  width: 15px;
+}
+
+#side-nav header h1 {
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.5em;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #47525d;
 }
 
 #side-nav nav ul {
@@ -67,25 +107,43 @@ html, body {
 }
 
 #side-nav nav ul li a {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 0px 0px 10px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  text-decoration: none;
+
 }
 
 #side-nav nav ul li a .icon {
-  width: 20%;
-}
-
-#side-nav nav ul li a .description {
-  width: 80%;
-  padding: 5px 0px 5px 5px;
-  margin-left: 0px;
-  border-bottom: 0.5px solid rgba(38,38,38,0.1);
+  width: 15%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 #side-nav nav ul li a img {
-  width: 30px;
+  width: 25px;
+}
+
+#side-nav nav ul li a .description {
+  width: 85%;
+  padding: 0px 0px 0px 0px;
+  margin-left: 0px;
+  border-bottom: 0.5px solid rgba(38,38,38,0.05);
+}
+
+#side-nav nav ul li a .description p {
+  font-size: 1em;
+  color: #47525d;
+
+  font-family: "Open Sans";
+}
+
+main {
+  width: 100%;
+    display: flex;
 }
 
 main header {
@@ -113,6 +171,28 @@ main header button[name="side-nav"] {
 main header button[name="side-nav"] img {
   width: 20px;
   height: 20px;
+}
+
+.hero {
+  width: 100%;
+  margin-top: 58px;
+  padding: 50px 0px 50px 0px;
+  background-color: white;
+  background: url('../img/web_banner_mobile.png');
+  background-size: cover;
+  background-position: center;
+  border-bottom: 0.5px solid rgba(38,38,38,0.05);
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  margin-top: 20px;
+  width: 160px;
 }
 
 /*header {
