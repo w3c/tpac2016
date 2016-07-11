@@ -12,9 +12,15 @@ html, body {
 .container {
   width: 100%;
   height: 100%;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 10px 0px 10px;
   box-sizing: border-box;
   display: flex;
+}
+
+.column {
+  display: flex;
+  flex-flow: column nowrap;
+  box-sizing: border-box;
 }
 
 .row {
@@ -57,10 +63,13 @@ html, body {
 
 #side-nav header {
   width: 100%;
-  background-color: #f6f8fa;
+  background-color: #EF5350;
   --border-bottom: 3px solid #D4A525;
   padding-top: 5px;
   border-bottom: 0.5px solid rgba(38,38,38,0.05);
+  background: url('../img/cover.svg');
+  background-size: cover;
+  background-position: center;
 }
 
 #side-nav header .container {
@@ -88,13 +97,14 @@ html, body {
 }
 
 #side-nav header h1 {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: white;
   line-height: 1.5em;
-  font-weight: 600;
+  font-weight: 800;
   margin-top: 30px;
   margin-bottom: 20px;
-  color: #47525d;
+  color: white;
+  font-family: sans-serif;
 }
 
 #side-nav nav ul {
@@ -136,14 +146,15 @@ html, body {
 
 #side-nav nav ul li a .description p {
   font-size: 1em;
+  font-weight: 400;
   color: #47525d;
-
-  font-family: "Open Sans";
+  font-family: sans-serif;
 }
 
 main {
   width: 100%;
-    display: flex;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 main header {
@@ -152,8 +163,7 @@ main header {
   position: fixed;
   top: 0px;
   left: 0px;
-  border-bottom: 1px solid rgba(38,38,38,0.1);
-  background-color: white;
+  background-color: transparent;
 }
 
 main header button[name="side-nav"] {
@@ -175,10 +185,11 @@ main header button[name="side-nav"] img {
 
 .hero {
   width: 100%;
-  margin-top: 58px;
+  margin-top: 0px;
+  height: 120px;
   padding: 50px 0px 50px 0px;
   background-color: white;
-  background: url('../img/web_banner_mobile.png');
+  background: url('../img/cover.svg');
   background-size: cover;
   background-position: center;
   border-bottom: 0.5px solid rgba(38,38,38,0.05);
@@ -195,6 +206,28 @@ main header button[name="side-nav"] img {
   width: 160px;
 }
 
+section {
+  background-color: white;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+section h2 {
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  color: #47525d;
+}
+
+section p {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Open Sans;
+  color: #47525d;
+  line-height: 1.5em;
+}
 /*header {
     width: 100%;
     height: 60px;
