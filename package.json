@@ -1,0 +1,11 @@
+{
+  "name": "inkd",
+  "version": "0.0.1",
+  "devDependencies": {
+    "live-reload": "^1.1.0"
+  },
+  "scripts": {
+    "server": "http-server & npm run livereload",
+    "livereload": "live-reload --port 9091 ./index.html ./overview.html ./schedule/* ./map/* ./assets/*"
+  }
+}

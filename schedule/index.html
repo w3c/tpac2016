@@ -7,38 +7,70 @@
         <meta name="theme-color" content="#EA384D">
         <meta name="apple-mobile-web-app-status-bar-style" content="#EA384D">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,100,300,700,900' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="../assets/css/tpac2016.css">
+        <link rel="stylesheet" href="../assets/css/newtpac2016.css">
         <link rel="stylesheet" href="../assets/css/schedule.css">
         <link rel="manifest" href="../manifest.json">
     </head>
     <body>
 
-        <div id="notification-pane">
-
-        </div>
-
-        <div class="side-nav">
-            <div id="side-nav-content">
-                <div class="side-nav-header">
-
-                </div>
-                <ul>
-                    <li><a href="..">Home</a></li>
-                    <li><a href="../schedule/">Schedule</a></li>
-                    <li><a href="../map/">Map</a></li>
-                </ul>
-            </div>
-            <div id="side-nav-overlay">
-            </div>
-        </div>
-
+      <aside id="side-nav">
         <header>
-            <button id="side-nav-btn" class="side-nav-btn" type="button" name="side-nav-button"><span class="sr-only">open menu</span><img src="../assets/img/menu-icon-white.svg" height="18" alt=""></button>
-            <div class="page-title">
-                <h1>Schedule</h1>
+          <div class="container">
+            <div class="side-nav-controls">
+              <button id="close-side-nav-btn" type="button" name="button"><img src="../assets/img/icon-close.svg" alt=""></button>
             </div>
+            <h1>Technical Plenary <br> Advisory Committee <br> Meeting Week</h1>
+          </div>
         </header>
+        <nav>
+          <ul>
+            <li>
+              <a href="../index">
+                <div class="icon">
+                  <img src="../assets/img/side_nav_home_icon.svg" height="22" alt="">
+                </div>
+                <div class="description">
+                  <p>
+                    Home
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="schedule/">
+                <div class="icon">
+                  <img src="../assets/img/side_nav_calendar_icon.svg" height="22" alt="">
+                </div>
+                <div class="description">
+                  <p>
+                    Schedule
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="map/">
+                <div class="icon">
+                  <img src="../assets/img/side_nav_location_icon.svg" height="22" alt="">
+                </div>
+                <div class="description">
+                  <p>
+                    Map
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+
         <main>
+          <header>
+            <div class="container row">
+              <button id="side-nav-btn" type="button" name="side-nav"><img src="../assets/img/icon-sidenav.svg" alt="open menu"></button>
+            </div>
+          </header>
             <section class="schedule">
                 <nav>
                     <div class="container">
@@ -738,8 +770,9 @@
 
             </section>
         </main>
-        <script type="text/javascript" src="../assets/js/app.js"></script>
+        <div id="mask"></div>
+        <script src="http://localhost:9091"></script>
         <script type="text/javascript" src="../assets/js/schedule.js"></script>
-        <script type="text/javascript" src="../assets/js/side-nav.js"></script>
+        <script type="text/javascript" src="../assets/js/sidenav.js"></script>
     </body>
 </html>

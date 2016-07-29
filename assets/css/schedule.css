@@ -1,39 +1,4 @@
-header {
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-color: #EA384D;
-    border-bottom: 1px solid rgba(38,38,38,0.2);
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 20px;
-    z-index: 100;
-}
 
-header .side-nav-btn {
-    padding: 0px;
-    background-color: transparent;
-    border: 0px;
-    box-shadow: none;
-    display: flex;
-    cursor: pointer;
-    outline: none;
-
-     -webkit-tap-highlight-color: transparent;
-}
-
-header .page-title {
-    padding-left: 20px;
-}
-
-header .page-title h1 {
-    color: white;
-    font-size: 1.2em;
-}
 
 h1 {
     font-size: 1.6em;
@@ -53,77 +18,6 @@ p {
     color: #47525d;
 }
 
-#side-nav {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    display: none;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#side-nav.active {
-    display: flex;
-}
-
-#side-nav-overlay {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 200;
-    top: 0px;
-    left: 0px;
-    display: none;
-    background-color: rgba(255, 255, 255, 0.7);
-
-}
-
-#side-nav-overlay.active {
-    display: block;
-}
-
-#side-nav-content {
-    height: 100%;
-    width: 80%;
-    position: fixed;
-    top: 0px;
-    right: 120%;
-    z-index: 300;
-    background-color: white;
-    transition:0.4s;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-#side-nav-content.active {
-    transform: translateX(125%);
-}
-
-#side-nav-content .side-nav-header {
-    width: 100%;
-    height: 150px;
-    background-color: #EFF1F6;
-}
-
-#side-nav-content ul {
-    padding-left: 10px;
-}
-
-#side-nav-content ul li {
-    list-style-type: none;
-    padding: 15px 10px 15px 10px;
-
-}
-
-#side-nav-content ul li a {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: rgba(38, 38, 38, 1);
-
-     -webkit-tap-highlight-color: transparent;
-}
 
 .container {
     padding: 0px 20px 0px 20px;
@@ -164,18 +58,18 @@ p {
 
 .schedule nav {
     position: fixed;
-    top: 60px;
+    top: 56px;
     left: 0px;
     width: 100%;
-    height: 60px;
+    height: 50px;
     z-index: 100;
-    background-color: #EFF1F6;
+    background-color: white;
     overflow: scroll;
     border-bottom: 1px solid rgba(38,38,38,0.2);
 }
 
 .schedule nav .container {
-    height: 60px;
+    height: 50px;
     width: 150%;
     padding: 0px;
     display: flex;
@@ -192,8 +86,8 @@ p {
     background-color: transparent;
     border: 0px;
     font-size: 1em;
-    padding: 20px 20px 20px 20px;
-    color: rgba(38, 38, 38, 0.5);
+    padding: 10px 20px 10px 20px;
+    color: #000000;
     outline: none;
     cursor: pointer;
     white-space: nowrap;
@@ -203,7 +97,7 @@ p {
 .schedule nav button.active {
     padding: 20px 20px 20px 20px;
     color: rgba(38, 38, 38, 1);
-    color: #EA384D;
+    color: #0072FF;
 }
 
 .schedule .agenda {

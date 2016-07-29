@@ -210,6 +210,8 @@ section {
   background-color: white;
   margin-top: 20px;
   padding-bottom: 15px;
+  border-top: 0.5px solid rgba(38,38,38,0.1);
+  border-bottom: 0.5px solid rgba(38,38,38,0.1);
 }
 
 section h2 {

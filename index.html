@@ -4,11 +4,10 @@
     <title>TPAC 2016: W3C Combined Technical Plenary / Advisory Committee Meeting</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <meta name="theme-color" content="#EF5350">
-      <meta name="apple-mobile-web-app-status-bar-style" content="#EF5350">
+      <!-- <meta name="theme-color" content="#EF5350">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#EF5350">-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,100,300,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/tpac2016.css">
+    <link rel="stylesheet" href="assets/css/newtpac2016.css">
     <link rel="manifest" href="manifest.json">
   </head>
   <body>
@@ -26,7 +25,7 @@
           <li>
             <a href="#">
               <div class="icon">
-                <img src="assets/img/icon-newsfeed.svg" alt="">
+                <img src="assets/img/side_nav_home_icon.svg" height="22" alt="">
               </div>
               <div class="description">
                 <p>
@@ -38,7 +37,7 @@
           <li>
             <a href="schedule/">
               <div class="icon">
-                <img src="assets/img/icon-schedule.svg" alt="">
+                <img src="assets/img/side_nav_calendar_icon.svg" height="22" alt="">
               </div>
               <div class="description">
                 <p>
@@ -48,37 +47,13 @@
             </a>
           </li>
           <li>
-            <a href="schedule/">
-              <div class="icon">
-                <img src="assets/img/icon-map.svg" alt="">
-              </div>
-              <div class="description">
-                <p>
-                  Venue
-                </p>
-              </div>
-            </a>
-          </li>
-          <li>
             <a href="map/">
               <div class="icon">
-                <img src="assets/img/icon-center-map.svg" alt="">
+                <img src="assets/img/side_nav_location_icon.svg" height="22" alt="">
               </div>
               <div class="description">
                 <p>
                   Map
-                </p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="schedule/">
-              <div class="icon">
-                <img src="assets/img/icon-myschedule.svg" alt="">
-              </div>
-              <div class="description">
-                <p>
-                  My schedule
                 </p>
               </div>
             </a>
@@ -92,28 +67,73 @@
           <button id="side-nav-btn" type="button" name="side-nav"><img src="assets/img/icon-sidenav.svg" alt="open menu"></button>
         </div>
       </header>
-      <section class="hero">
-        <div class="container row">
-          <!--<img src="assets/img/web_logo.svg" alt="">-->
-        </div>
-      </section>
+      <section class="update">
+        <div class="container">
+          <div class="row strech">
+            <p class="update-date">
 
-      <section>
-        <div class="container column">
-          <h2>About</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+            </p>
+            <img src="assets/img/close-btn-white.svg" height="10" alt="">
+          </div>
+          <div class="row">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
         </div>
       </section>
-      <section>
-        <div class="container column">
-          <h2>Sponsorship</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+      <section id="myschedule" class="active">
+        <div id="my-schedule-list">
+          <h4>Monday, 19</h4>
+          <ul id="my-schedule-monday"></ul>
+          <h4>Tuesday, 20</h4>
+          <ul id="my-schedule-tuesday"></ul>
+          <h4>Wednesday, 20</h4>
+          <ul id="my-schedule-wednesday"></ul>
+          <h4>Thursday, 20</h4>
+          <ul id="my-schedule-thursday"></ul>
+          <h4>Friday, 20</h4>
+          <ul id="my-schedule-friday"></ul>
+        </div>
+        <div id="my-schedule-placeholder" class="placeholder container">
+            <div class="illustration"></div>
+            <h3>Create your Schedule</h3>
+            <p>
+              Your are not attending any meeting. <br> Start building your own schedule.
+            </p>
+            <p class="call-to-action">
+              <a class="btn" href="schedule/">Build my schedule</a>
+            </p>
         </div>
       </section>
+      <nav id="bottom-nav">
+        <div class="container">
+          <div class="row">
+            <div class="active">
+              <a href="index"><img src="assets/img/bottom_nav_calendar_icon.svg" height="20" alt=""><span>
+                My Schedule
+              </span></a>
+            </div>
+            <div>
+              <a href="overview"><img src="assets/img/bottom_nav_about_icon.svg" height="20" alt=""><span>
+                More Info
+              </span></a>
+            </div>
+            <div class="disable">
+              <a href="#"><img src="assets/img/bottom_nav_activity_icon.svg" height="20" alt=""><span>
+                Activity
+              </span></a>
+            </div>
+            <div class="disable">
+              <a href="#"><img src="assets/img/bottom_nav_notification_icon.svg" height="20" alt=""><span>
+                Notifications
+              </span></a>
+            </div>
+
+          </div>
+        </div>
+
+      </nav>
     </main>
     <div id="mask"></div>
 
@@ -122,86 +142,8 @@
 
 
 
-    <!--<div class="side-nav">
-      <div id="side-nav-content">
-        <div class="side-nav-header">
-        </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="schedule/">Schedule</a></li>
-          <li><a href="map/">Map</a></li>
-        </ul>
-      </div>
-      <div id="side-nav-overlay">
-      </div>
-    </div>
-
-    <header>
-      <button id="side-nav-btn" class="side-nav-btn" type="button" name="side-nav-button"><span class="sr-only">open menu</span><img src="assets/img/menu-icon-white.svg" height="18" alt=""></button>
-        <div class="page-title">
-        </div>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container">
-        </div>
-      </section>
-      <section class="date">
-        <div class="container">
-          <div class="icon">
-            <img src="assets/img/calendar.png" alt="">
-          </div>
-          <div class="content">
-            <p>
-              September 19, 2016
-              <br>
-              <span class="sub-info"> September 23, 2016 </span>
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="location">
-        <div class="container">
-          <div class="icon">
-            <img src="assets/img/location.png" alt="">
-          </div>
-          <div class="content">
-            <p>
-              Lisboa, Portugal
-              <br>
-              <span class="sub-info"> Centro de Congressos de Lisboa</span>
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="details">
-        <div class="container">
-          <h2>About</h2>
-          <p>
-            The combined Technical Plenary / Advisory Committee Meetings Week brings together W3C Technical Groups, the Advisory Board, the TAG and the Advisory Committee for an exciting week of coordinated work.
-          </p>
-          <p>
-            New! As part of an experiment the W3C Community Groups will be able to hold a 2 hour meeting on Monday, Tuesday, Thursday or Friday.
-            Outside of their Community Group meetings, non W3C-Member CG participants may attend as observers the Working and Interest groups meetings who accept observers.
-            For further details, see Participation Policies and Recommendations
-          </p>
-        </div>
-      </section>
-
-      <section class="details">
-        <div class="container">
-          <h2>About</h2>
-          <p>
-            The combined Technical Plenary / Advisory Committee Meetings Week brings together W3C Technical Groups, the Advisory Board, the TAG and the Advisory Committee for an exciting week of coordinated work.
-          </p>
-        </div>
-      </section>
-    </main>
-
-            <footer>
-
-            </footer>-->
+  <script src="http://localhost:9091"></script>
+  <script type="text/javascript" src="assets/js/myschedule.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
   <script type="text/javascript" src="assets/js/sidenav.js"></script>
   </body>
