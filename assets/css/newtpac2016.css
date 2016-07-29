@@ -1,5 +1,6 @@
 html, body {
   width: 100%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
   outline: 0px;
@@ -20,7 +21,7 @@ main header {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 0px;
 }
 
 section {
@@ -286,18 +287,24 @@ main header .container {
   border-radius: 3px;
 }
 
+main {
+  height: 100%;
+}
 #myschedule {
+  height: 100%;
+  margin-top: 0px;
 }
 #myschedule .placeholder {
   text-align: center;
-  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
-#myschedule .placeholder .illustration {
-  height: 150px;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
+#myschedule .placeholder img {
+  margin-bottom: 20px;
 }
 
 #myschedule .placeholder p {

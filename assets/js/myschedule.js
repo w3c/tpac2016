@@ -93,5 +93,5 @@
     hideElement(document.getElementById('my-schedule-list'))
   }
 
-
+  
 })()
