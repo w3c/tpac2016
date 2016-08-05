@@ -57,7 +57,8 @@
     function loadSchedule(agendaName) {
         var prevScheduleElement = activeScheduleElement;
         activeScheduleElement = document.getElementById(agendaName + '-schedule');
-        prevScheduleElement.style.display = 'none';
+        if (prevScheduleElement)
+            prevScheduleElement.style.display = 'none';
         activeScheduleElement.style.display = 'block';
     }
 
