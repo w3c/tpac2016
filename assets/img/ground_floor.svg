@@ -32,9 +32,9 @@
     <rect id="auditorium7" class='w3c' width="81.628441" height="92.17823" x="241" y="309.18408"/>
   </g>
   <g transform="translate(-112,-141)" id='rooms'>
-    <rect class='w3c' id="room3a" width="85.534248" height="71.03437" x="867.46576" y="319"/>
-    <rect class='w3c' id="room3b" width="85.5" height="68.5" x="867.5" y="249.8623"/>
-    <rect class='w3c' id="room3c" width="85.534241" height="65.667999" x="867.46576" y="183.69431"/>
+    <rect id="room3a" width="85.534248" height="71.03437" x="867.46576" y="319"/>
+    <rect id="room3b" width="85.5" height="68.5" x="867.5" y="249.8623"/>
+    <rect id="room3c" width="85.534241" height="65.667999" x="867.46576" y="183.69431"/>
     <rect id="room001" width="38.259251" height="41.193871" x="798.74072" y="330"/>
     <rect id="room002" width="38.367737" height="39.771179" x="798.75" y="290.59113"/>
     <path id="room003" d="m 747.86714,222.10838 -49.61714,0.50392 -0.25,23.25 39.5,-0.5 10.5,-8.5 z"/>
@@ -74,9 +74,9 @@
       <text class='w3c' style="font-size: 1em;" transform="rotate(-50)" x="-130" y="450">Auditorium</text>
       <text class='w3c' x="290" y="390">7</text>
     </g>
-    <text class='w3c' x="895" y="361">3.A</text>
-    <text class='w3c' x="895" y="285">3.B</text>
-    <text class='w3c' x="895" y="219">3.C</text>
+    <text x="895" y="361">3.A</text>
+    <text x="895" y="285">3.B</text>
+    <text x="895" y="219">3.C</text>
     <text x="802" y="352">0.01</text>
     <text x="802" y="314">0.02</text>
     <text x="709" y="239">0.03</text>

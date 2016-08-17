@@ -76,8 +76,10 @@
     <text y="939" x="159" style="font-size:4em;">FIRST FLOOR <tspan style="font-size:50%;">(UPPER FLOOR)</tspan></text>
     <text y="467" x="649">Foyer D</text>
     <text y="465" x="269">Foyer F</text>
-    <text y="779.86633" x="540.64478" class='bigger'>HALL 2 GALERIA</text>
+    <text y="490" x="469">galeria</text>
+    <text style='display: none' y="779.86633" x="540.64478" class='bigger'>HALL 2 GALERIA</text>
     <text y="536" x="919" class='bigger'>HALL 4</text>
+    <text y="836" x="959" style='font-size: 1.5em;'>Restaurant</text>
     <text y="260" x="970" class='bigger' style='font-size: 1.5em;'>HALL</text>
     <text y="293.69565" x="984.66669" class='bigger'>5</text>
     <text y="329" x="690">Auditorium</text>
