@@ -111,76 +111,11 @@
     <path d="m 40,598 0,40" style="fill:none;stroke-width:1px;" />
     <path d="m 50,598 0,40" style="fill:none;stroke-width:1px;" />
     <path d="m 60,598 0,40" style="fill:none;stroke-width:1px;" />
-    <text y="630" x="80">Elevators</text>
+    <text y="630" x="80">Stairs</text>
 
     <path d="m 30,658 40,0 l 0,30 l -40,0 l 0,-30 z" style="fill:#aa8800;" />
     <path d="m 30,658 40,30" style="fill:none;stroke-width:1px;" />
     <path d="M 70,658 30,688" style="fill:none;stroke-width:1px;" />
-    <text y="680" x="80">Stairs</text>
-  </g>
-  <g id='extras' style='display: none'>
-    <path d="m 210,390 20,0 l 0,40 l -20,0 l 0,-40 z"
-       style="fill:#aa8800;" />
-    <path d="m 210,390 20,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 230,390 -20,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 80,344 80,0 l 0,40 l -80,0 l 0,-40 z"
-       style="fill:#c83771;" />
-    <path d="m 110,344 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 120,344 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 130,344 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 140,344 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 150,344 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 100,344 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 90,344 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 920,424 30,0 l 0,60 l -30,0 l 0,-60 z" style="fill:#c83771;" />
-    <path d="m 930,424 0,60" style="fill:none;stroke-width:1px;" />
-    <path d="m 940,424 0,60" style="fill:none;stroke-width:1px;" />
-
-    <path d="m 630,378 70,0 l 0,30 l -70,0 l 0,-30 z"
-       style="fill:#c83771;" />
-    <path d="m 640,378 0,30" style="fill:none;stroke-width:1px;" />
-    <path d="m 650,378 0,30" style="fill:none;stroke-width:1px;" />
-    <path d="m 660,378 0,30" style="fill:none;stroke-width:1px;" />
-    <path d="m 670,378 0,30" style="fill:none;stroke-width:1px;" />
-    <path d="m 680,378 0,30" style="fill:none;stroke-width:1px;" />
-    <path d="m 690,378 0,30" style="fill:none;stroke-width:1px;" />
-
-    <path d="M 980,750 1030,750 l 0,20 l -50,0 l 0,-20 z"
-       style="fill:#c83771;" />
-    <path d="m 990,750 0,20" style="fill:none;stroke-width:1px;" />
-    <path d="m 1000,750 0,20" style="fill:none;stroke-width:1px;" />
-    <path d="m 1010,750 0,20" style="fill:none;stroke-width:1px;" />
-    <path d="m 1020,750 0,20" style="fill:none;stroke-width:1px;" />
-
-    <rect y="218" x="890" height="30" width="40" style="fill:#c83771;" />
-
-    <path d="m 682,248 50,0 l 0,20 l -50,0 l 0,-20 z"
-       style="fill:#aa8800;" />
-    <path d="M 732,268 682,248" style="fill:none;stroke-width:1px;" />
-    <path d="m 732,248 -50,20" style="fill:none;stroke-width:1px;" />
-
-    <path d="m 890,218 20,0 l 0,20 l -20,0 l 0,-20 z"
-       style="fill:#aa8800;" />
-    <path d="m 890,218 c 20,20 20,20 20,20" style="fill:none;stroke-width:1px;" />
-    <path d="m 910,218 -20,20" style="fill:none;stroke-width:1px;" />
-
-    <path d="m 790,490 20,0 l 0,30 l -20,0 l 0,-30 z"
-       style="fill:#aa8800;" />
-    <path d="m 790,490 20,30" style="fill:none;stroke-width:1px;" />
-    <path d="m 810,490 -20,30" style="fill:none;stroke-width:1px;" />
-
-    <path d="m 20,598 50,0 l 0,40 l -50,0 l 0,-40 z" style="fill:#c83771;" />
-    <path d="m 30,598 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 40,598 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 50,598 0,40" style="fill:none;stroke-width:1px;" />
-    <path d="m 60,598 0,40" style="fill:none;stroke-width:1px;" />
-    <text y="630" x="80">Elevators</text>
-
-    <path d="m 30,658 40,0 l 0,30 l -40,0 l 0,-30 z" style="fill:#aa8800;" />
-    <path d="m 30,658 40,30" style="fill:none;stroke-width:1px;" />
-    <path d="M 70,658 30,688" style="fill:none;stroke-width:1px;" />
-    <text y="680" x="80">Stairs</text>
-
-
+    <text y="680" x="80">Elevators</text>
   </g>
 </svg>

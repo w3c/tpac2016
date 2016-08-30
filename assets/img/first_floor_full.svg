@@ -183,12 +183,12 @@
     <path d="m 40,598 0,40" style="fill:none;stroke-width:1px;" />
     <path d="m 50,598 0,40" style="fill:none;stroke-width:1px;" />
     <path d="m 60,598 0,40" style="fill:none;stroke-width:1px;" />
-    <text y="630" x="80">Elevators</text>
+    <text y="630" x="80">Stairs</text>
 
     <path d="m 30,658 40,0 l 0,30 l -40,0 l 0,-30 z" style="fill:#aa8800;" />
     <path d="m 30,658 40,30" style="fill:none;stroke-width:1px;" />
     <path d="M 70,658 30,688" style="fill:none;stroke-width:1px;" />
-    <text y="680" x="80">Stairs</text>
+    <text y="680" x="80">Elevators</text>
 
 
   </g>
