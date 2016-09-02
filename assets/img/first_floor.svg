@@ -5,6 +5,8 @@
     text { font-size: 16px; font-family: sans-serif;}
     text.w3c, text.bigger { font-size: 2em; }
     text.w3c { fill: blue; }
+    .bar { stroke:#008000; stroke-width: 2px; fill: none }
+    text.bar { fill: #008000; font-size: 1.5em; }
     .w3c-line, rect.w3c, path.w3c { stroke:blue; stroke-width: 2px;}
     .w3c-line { fill: none; }
     #walkpaths path { fill: none; stroke: rgba(50, 50, 50, 0.3); stroke-width: 5px }
@@ -47,6 +49,11 @@
     <path class='w3c' id="room114" d="m 899.26623,384.1226 -33.45248,0.75 -0.41375,30.8897 2.95,1.25 6.05,4.95 7.2,-6.2 17.4,0 z"/>
     <rect class='w3c' id="room115" y="435.15747" x="351.35437" height="35.115952" width="57.409725"/>
   </g>
+
+   <path
+     d="m 650,478 10,0 10,10 20,0 10,-10 15,0 0,30 -65,0 z"
+     id="bar" class="bar" />
+
 
   <g id="walkpaths">
     <path d="m 801.08814,533.16866 119.27312,-0.8901"/>
@@ -109,6 +116,7 @@
     <text class="w3c" y="496" x="771.2998">1.13</text>
     <text class="w3c" y="529" x="772.5">1.12</text>
     <text y="565" x="795" style="font-size:1.5em;">1.11</text>
+    <text class='bar' x="850" y="750">bar</text>
 
     <path class="w3c-line" d="m 1079,670 57,0"/>
     <path class="w3c-line" d="m 1077.5,642 57,0"/>
@@ -126,5 +134,7 @@
     <path class="w3c-line" d="m 426,448 -41,6"/>
     <path class="w3c-line" d="m 499,203 -1,120.5 66,30.5"/>
     <path class="w3c-line" d="m 675,186 -105,104"/>
+    <path class='bar' d="m 820,630 83,9 L 860,730" />
+
   </g>
 </svg>
