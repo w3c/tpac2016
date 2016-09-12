@@ -5,7 +5,11 @@
     "start_url": "./",
     "icons": [
         {"src": "assets/img/app-icon.png",
-         "sizes": "any",
+         "sizes": "400x400",
+         "type": "image/png"
+        },
+        {"src": "assets/img/app-icon-small.png",
+         "sizes": "144x144",
          "type": "image/png"
         }
     ],
