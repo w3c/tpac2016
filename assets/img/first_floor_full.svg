@@ -6,7 +6,7 @@
     text.w3c, text.bigger { font-size: 2em; }
     text.w3c { fill: blue; }
     .bar { stroke:#008000; stroke-width: 2px; fill: none }
-    text.bar { fill: #008000; font-size: 1.5em; }
+    text.bar { fill: #008000; font-size: 1.5em; stroke: none;}
     .w3c-line, rect.w3c, path.w3c { stroke:blue; stroke-width: 2px;}
     .w3c-line { fill: none; }
     #walkpaths path { fill: none; stroke: rgba(50, 50, 50, 0.3); stroke-width: 5px }
