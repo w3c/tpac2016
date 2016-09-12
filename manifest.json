@@ -1,13 +1,19 @@
 {
     "name": "TPAC 2016",
+    "short_name": "TPAC",
     "lang": "en",
-    "start_url": "./index.html",
+    "start_url": "./",
     "icons": [
-        {"src": "assets/img/app-icon.png",
-         "sizes": "any",
+        {"src": "assets/img/app_icon_large.png",
+         "sizes": "288x288",
+         "type": "image/png"
+        },
+        {"src": "assets/img/app_icon_small.png",
+         "sizes": "144x144",
          "type": "image/png"
         }
     ],
     "display": "standalone",
-    "background_color": "#C2001D"
+    "theme_color": "#0072FF",
+    "background_color": "white"
 }
