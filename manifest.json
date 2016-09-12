@@ -2,7 +2,7 @@
     "name": "TPAC 2016",
     "short_name": "TPAC",
     "lang": "en",
-    "start_url": "./index.html",
+    "start_url": "./",
     "icons": [
         {"src": "assets/img/app-icon.png",
          "sizes": "any",
